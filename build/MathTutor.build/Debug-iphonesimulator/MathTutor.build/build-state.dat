@@ -1,0 +1,1606 @@
+TMathTutor
+v7
+r0
+t321761064.203321
+cCheck dependencies
+cProcessInfoPlistFile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/Info.plist" MathTutor-Info.plist
+cCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPad/MainWindow_iPad.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPhone/MainWindow_iPhone.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPadStartScreenController.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.xib"
+cCpResource build/Debug-iphonesimulator/MathTutor.app/Default.png Resources/Default.png
+cCpResource build/Debug-iphonesimulator/MathTutor.app/TN_09-10_S_22A.jpg Resources/TN_09-10_S_22A.jpg
+cCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPadPlayController.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhonePlayController.xib"
+cCpResource build/Debug-iphonesimulator/MathTutor.app/black.png Resources/black.png
+cCpResource build/Debug-iphonesimulator/MathTutor.app/1.wav Resources/1.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/2.wav Resources/2.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/3.wav Resources/3.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/4.wav Resources/4.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/5.wav Resources/5.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/6.wav Resources/6.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/7.wav Resources/7.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/8.wav Resources/8.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/9.wav Resources/9.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/10.wav Resources/10.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/11.wav Resources/11.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/12.wav Resources/12.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/13.wav Resources/13.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/14.wav Resources/14.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/15.wav Resources/15.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/16.wav Resources/16.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/17.wav Resources/17.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/18.wav Resources/18.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/19.wav Resources/19.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/20.wav Resources/20.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/21.wav Resources/21.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/22.wav Resources/22.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/23.wav Resources/23.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/24.wav Resources/24.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/25.wav Resources/25.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/26.wav Resources/26.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/27.wav Resources/27.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/28.wav Resources/28.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/29.wav Resources/29.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/30.wav Resources/30.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/divided.wav Resources/divided.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/minus.wav Resources/minus.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/no0.wav Resources/no0.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/no1.wav Resources/no1.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/no2.wav Resources/no2.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/no3.wav Resources/no3.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/no4.wav Resources/no4.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/no5.wav Resources/no5.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/plus.wav Resources/plus.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/times.wav Resources/times.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/welcome.wav Resources/welcome.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/what.wav Resources/what.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/yes0.wav Resources/yes0.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/yes1.wav Resources/yes1.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/yes2.wav Resources/yes2.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/yes3.wav Resources/yes3.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/yes4.wav Resources/yes4.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/yes5.wav Resources/yes5.wav
+cCpResource build/Debug-iphonesimulator/MathTutor.app/Icon-72.png Resources/Icon-72.png
+cCpResource build/Debug-iphonesimulator/MathTutor.app/Icon.png Resources/Icon.png
+cCpResource build/Debug-iphonesimulator/MathTutor.app/Icon@2x.png Resources/Icon@2x.png
+cProcessPCH /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch.gch MathTutor_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor.momd" "/Users/alpascual/Pet Projects/MathTutor/Shared/MathTutor.xcdatamodeld"
+cCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/main.o "/Users/alpascual/Pet Projects/MathTutor/Shared/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPad.o "/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_Shared.o "/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPhone.o "/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/StartScreenController.o "/Users/alpascual/Pet Projects/MathTutor/StartScreenController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/PlayController.o "/Users/alpascual/Pet Projects/MathTutor/PlayController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/SoundManager.o "/Users/alpascual/Pet Projects/MathTutor/Shared/SoundManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor" normal i386
+cGenerateDSYMFile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app.dSYM" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor"
+cTouch "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004CC1222F0000000000010AAC
+t1287725615
+s68268
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC122A000000000001D6CE0
+t1287725728
+s1928416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC12294000000000000046B
+t1287725716
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004CC657750000000000000071
+t1288066933
+s113
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004CC65780000000000002F590
+t1288066944
+s193936
+
+N/Users/alpascual/Pet Projects/MathTutor/MathTutor_Prefix.pch
+c000000004D6BFD0900000000000000BB
+t1298922761
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/MathTutor/PlayController.h
+c000000004D7D528C0000000000000753
+t1300058764
+s1875
+i<UIKit/UIKit.h>
+i"SoundManager.h"
+i"SoundDelegate.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/PlayController.m
+c000000004D7D5522000000000000146C
+t1300059426
+s5228
+i"PlayController.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/PlayController.xib
+c000000004D6C04D2000000000000509B
+t1298924754
+s20635
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/1.wav
+c000000004D72CAA5000000000000AC2C
+t1299368613
+s44076
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/10.wav
+c000000004D72CCC60000000000011C2C
+t1299369158
+s72748
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/11.wav
+c000000004D72E9FE0000000000012C2C
+t1299376638
+s76844
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/12.wav
+c000000004D72EA27000000000000E82C
+t1299376679
+s59436
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/13.wav
+c000000004D72EA45000000000001242C
+t1299376709
+s74796
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/14.wav
+c000000004D72EA75000000000001642C
+t1299376757
+s91180
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/15.wav
+c000000004D72EAA9000000000001102C
+t1299376809
+s69676
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/16.wav
+c000000004D72EADB000000000001702C
+t1299376859
+s94252
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/17.wav
+c000000004D72EAFF0000000000019C2C
+t1299376895
+s105516
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/18.wav
+c000000004D72EB1B000000000001702C
+t1299376923
+s94252
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/19.wav
+c000000004D72EB38000000000001882C
+t1299376952
+s100396
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/2.wav
+c000000004D72CAFE000000000000C82C
+t1299368702
+s51244
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/20.wav
+c000000004D72EB55000000000001142C
+t1299376981
+s70700
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/21.wav
+c000000004D72EBB5000000000001482C
+t1299377077
+s84012
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/22.wav
+c000000004D72EBD1000000000001942C
+t1299377105
+s103468
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/23.wav
+c000000004D72EBF10000000000016C2C
+t1299377137
+s93228
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/24.wav
+c000000004D72EC09000000000002682C
+t1299377161
+s157740
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/25.wav
+c000000004D72EC2B000000000001802C
+t1299377195
+s98348
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/26.wav
+c000000004D72EC46000000000001B02C
+t1299377222
+s110636
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/27.wav
+c000000004D72EC5E000000000001802C
+t1299377246
+s98348
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/28.wav
+c000000004D72EC7D000000000001342C
+t1299377277
+s78892
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/29.wav
+c000000004D72EC930000000000020C2C
+t1299377299
+s134188
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/3.wav
+c000000004D72CB90000000000001202C
+t1299368848
+s73772
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/30.wav
+c000000004D72ECC3000000000000CC2C
+t1299377347
+s52268
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/4.wav
+c000000004D72CBBF000000000000DC2C
+t1299368895
+s56364
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/5.wav
+c000000004D72CBEC000000000001342C
+t1299368940
+s78892
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/6.wav
+c000000004D72CC18000000000000DC2C
+t1299368984
+s56364
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/7.wav
+c000000004D72CC340000000000011C2C
+t1299369012
+s72748
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/8.wav
+c000000004D72CC790000000000019C2C
+t1299369081
+s105516
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/9.wav
+c000000004D72CCAD000000000001F82C
+t1299369133
+s129068
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/Default.png
+c000000004D72EE8B0000000000025235
+t1299377803
+s152117
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/Icon-72.png
+c000000004D7D5C48000000000000201A
+t1300061256
+s8218
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/Icon.png
+c000000004D7D5C6600000000000016F3
+t1300061286
+s5875
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/Icon@2x.png
+c000000004D7D5C2A0000000000004092
+t1300061226
+s16530
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/TN_09-10_S_22A.jpg
+c000000004D118D40000000000000A531
+t1292995904
+s42289
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/black.png
+c000000004D6ECA590000000000001822
+t1299106393
+s6178
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/divided.wav
+c000000004D72ED6B000000000002542C
+t1299377515
+s152620
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/minus.wav
+c000000004D72E9D0000000000001742C
+t1299376592
+s95276
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/no0.wav
+c000000004D1D63B9000000000003102C
+t1293771705
+s200748
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/no1.wav
+c000000004D16C04B00000000000C002C
+t1293336651
+s786476
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/no2.wav
+c000000004D16C03E000000000008002C
+t1293336638
+s524332
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/no3.wav
+c000000004D16C1B3000000000008002C
+t1293337011
+s524332
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/no4.wav
+c000000004D1D63CE000000000004282C
+t1293771726
+s272428
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/no5.wav
+c000000004D1D63E4000000000003782C
+t1293771748
+s227372
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/plus.wav
+c000000004D72EB940000000000013C2C
+t1299377044
+s80940
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/times.wav
+c000000004D72CD15000000000001982C
+t1299369237
+s104492
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/welcome.wav
+c000000004D72ED20000000000004702C
+t1299377440
+s290860
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/what.wav
+c000000004D72ECFB000000000002E02C
+t1299377403
+s188460
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/yes0.wav
+c000000004D1D6332000000000002282C
+t1293771570
+s141356
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/yes1.wav
+c000000004D1F8C530000000000024FEC
+t1293913171
+s151532
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/yes2.wav
+c000000004D16BDB1000000000008002C
+t1293335985
+s524332
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/yes3.wav
+c000000004D16BDD9000000000008002C
+t1293336025
+s524332
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/yes4.wav
+c000000004D1D635E000000000003082C
+t1293771614
+s198700
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/yes5.wav
+c000000004D1D6378000000000002582C
+t1293771640
+s153644
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.h
+c000000004D6BFF83000000000000048B
+t1298923395
+s1163
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"StartScreenController.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m
+c000000004D6C04940000000000001B90
+t1298924692
+s7056
+i"AppDelegate_Shared.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/MathTutor.xcdatamodeld
+c000000004D6BFD090000000000000088
+t1298922761
+s136
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/SoundDelegate.h
+c000000004D4F08EB00000000000000CD
+t1297025259
+s205
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/SoundManager.h
+c000000004D7D4748000000000000034F
+t1300055880
+s847
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioServices.h>
+i"SoundDelegate.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/SoundManager.m
+c000000004D7D476D0000000000000D05
+t1300055917
+s3333
+i"SoundManager.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/main.m
+c000000004D6BFD09000000000000015E
+t1298922761
+s350
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/MathTutor/StartScreenController.h
+c000000004D7D58130000000000000247
+t1300060179
+s583
+i<UIKit/UIKit.h>
+i"PlayController.h"
+i"SoundManager.h"
+i<iAd/iAd.h>
+
+N/Users/alpascual/Pet Projects/MathTutor/StartScreenController.m
+c000000004D7D5749000000000000095C
+t1300059977
+s2396
+i"StartScreenController.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/StartScreenController.xib
+c000000004D6C03DE0000000000006562
+t1298924510
+s25954
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app
+t1300068210
+s2278
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app.dSYM
+t1300060199
+s102
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/1.wav
+t1300058343
+s44076
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/10.wav
+t1300058343
+s72748
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/11.wav
+t1300058343
+s76844
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/12.wav
+t1300058343
+s59436
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/13.wav
+t1300058343
+s74796
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/14.wav
+t1300058343
+s91180
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/15.wav
+t1300058343
+s69676
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/16.wav
+t1300058343
+s94252
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/17.wav
+t1300058343
+s105516
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/18.wav
+t1300058343
+s94252
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/19.wav
+t1300058343
+s100396
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/2.wav
+t1300058343
+s51244
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/20.wav
+t1300058343
+s70700
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/21.wav
+t1300058343
+s84012
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/22.wav
+t1300058343
+s103468
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/23.wav
+t1300058343
+s93228
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/24.wav
+t1300058343
+s157740
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/25.wav
+t1300058343
+s98348
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/26.wav
+t1300058343
+s110636
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/27.wav
+t1300058343
+s98348
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/28.wav
+t1300058343
+s78892
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/29.wav
+t1300058343
+s134188
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/3.wav
+t1300058343
+s73772
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/30.wav
+t1300058343
+s52268
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/4.wav
+t1300058343
+s56364
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/5.wav
+t1300058343
+s78892
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/6.wav
+t1300058343
+s56364
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/7.wav
+t1300058343
+s72748
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/8.wav
+t1300058343
+s105516
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/9.wav
+t1300058343
+s129068
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/Default.png
+t1299377812
+s152117
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/Icon-72.png
+t1300068210
+s8218
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/Icon.png
+t1300068210
+s5875
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/Icon@2x.png
+t1300068210
+s16530
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/Info.plist
+t1300068210
+s980
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MainWindow_iPad.nib
+t1300057490
+s1874
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MainWindow_iPhone.nib
+t1298924550
+s1876
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor
+t1300060199
+s59404
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor.momd
+t1298923144
+s136
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/PkgInfo
+t1300068210
+s8
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/PlayController.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/StartScreenController.nib
+t1298924550
+s2540
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/TN_09-10_S_22A.jpg
+t1298924550
+s42289
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/black.png
+t1299106715
+s6178
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/divided.wav
+t1300058343
+s152620
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/iPadPlayController.nib
+t1300056881
+s4429
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/iPadStartScreenController.nib
+t1300060142
+s3242
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/iPhonePlayController.nib
+t1300056881
+s4319
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/iPhoneStartScreenController.nib
+t1300060307
+s3168
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/minus.wav
+t1300058343
+s95276
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/no0.wav
+t1300058344
+s200748
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/no1.wav
+t1300058344
+s786476
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/no2.wav
+t1300058344
+s524332
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/no3.wav
+t1300058344
+s524332
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/no4.wav
+t1300058344
+s272428
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/no5.wav
+t1300058344
+s227372
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/plus.wav
+t1300058344
+s80940
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/times.wav
+t1300058344
+s104492
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/welcome.wav
+t1300058344
+s290860
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/what.wav
+t1300058344
+s188460
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/yes0.wav
+t1300058344
+s141356
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/yes1.wav
+t1300058344
+s151532
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/yes2.wav
+t1300058344
+s524332
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/yes3.wav
+t1300058344
+s524332
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/yes4.wav
+t1300058344
+s198700
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/yes5.wav
+t1300058344
+s153644
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_Shared.o
+t1300060199
+s67796
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPad.o
+t1300060199
+s49924
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPhone.o
+t1300060199
+s51064
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/MathTutor.LinkFileList
+c000000004D7D474900000000000003C4
+t1300055881
+s964
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/PlayController.o
+t1300059978
+s72020
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/SoundManager.o
+t1300055918
+s50892
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/StartScreenController.o
+t1300060199
+s47932
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/iPhonePlayController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/iPhoneStartScreenController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/main.o
+t1298923144
+s6320
+
+N/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.h
+c000000004D6BFD0900000000000000FA
+t1298922761
+s250
+i<UIKit/UIKit.h>
+i"AppDelegate_Shared.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m
+c000000004D6BFE480000000000000719
+t1298923080
+s1817
+i"AppDelegate_iPad.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/iPad/MainWindow_iPad.xib
+c000000004D7D4D650000000000005CE7
+t1300057445
+s23783
+
+N/Users/alpascual/Pet Projects/MathTutor/iPadPlayController.xib
+c000000004D7D4B2F000000000000D62E
+t1300056879
+s54830
+
+N/Users/alpascual/Pet Projects/MathTutor/iPadStartScreenController.xib
+c000000004D7D57EA000000000000793F
+t1300060138
+s31039
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.h
+c000000004D6BFD0900000000000000FE
+t1298922761
+s254
+i<UIKit/UIKit.h>
+i"AppDelegate_Shared.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m
+c000000004D6BFD090000000000000AC2
+t1298922761
+s2754
+i"AppDelegate_iPhone.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/MainWindow_iPhone.xib
+c000000004D6C01490000000000005E2E
+t1298923849
+s24110
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhonePlayController.h
+c000000004D6C04F600000000000000E1
+t1298924790
+s225
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhonePlayController.m
+c000000004D6C04F600000000000005A7
+t1298924790
+s1447
+i"iPhonePlayController.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhonePlayController.xib
+c000000004D7D49A4000000000000D134
+t1300056484
+s53556
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.h
+c000000004D6BFD5300000000000000EF
+t1298922835
+s239
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.m
+c000000004D6BFD5300000000000005BC
+t1298922835
+s1468
+i"iPhoneStartScreenController.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.xib
+c000000004D7D589000000000000079C7
+t1300060304
+s31175
+
+N/var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch.gch
+t1298923142
+s15453392
+
+NMathTutor-Info.plist
+c000000004D7D771900000000000005EB
+t1300068121
+s1515
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321761064#321761064#0(0"0(0#1#0"8612422976#0"0#
+
+CCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_Shared.o "/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321752998.890105
+e321752999.068347
+r1
+xCompileC
+xbuild/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_Shared.o
+x/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m321752998#321752999#0(0"0(0#0#67"/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m8620456768#2022"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch -c "/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m" -o "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_Shared.o"0#
+
+CCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPad.o "/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321752998.888734
+e321752999.012121
+r1
+xCompileC
+xbuild/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPad.o
+x/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m321752998#321752999#0(0"0(0#0#63"/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m8620760640#2016"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch -c "/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m" -o "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPad.o"0#
+
+CCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPhone.o "/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321752999.012227
+e321752999.185004
+r1
+xCompileC
+xbuild/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPhone.o
+x/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m321752999#321752999#0(0"0(0#0#67"/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m8620226592#2022"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch -c "/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m" -o "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPhone.o"0#
+
+CCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/PlayController.o "/Users/alpascual/Pet Projects/MathTutor/PlayController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321752778.713595
+e321752778.848160
+r1
+xCompileC
+xbuild/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/PlayController.o
+x/Users/alpascual/Pet Projects/MathTutor/PlayController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/alpascual/Pet Projects/MathTutor/PlayController.m321752778#321752778#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/PlayController.m8623646592#2007"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch -c "/Users/alpascual/Pet Projects/MathTutor/PlayController.m" -o "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/PlayController.o"0#
+
+CCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/SoundManager.o "/Users/alpascual/Pet Projects/MathTutor/Shared/SoundManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321748717.959328
+e321748718.097410
+r1
+xCompileC
+xbuild/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/SoundManager.o
+x/Users/alpascual/Pet Projects/MathTutor/Shared/SoundManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/alpascual/Pet Projects/MathTutor/Shared/SoundManager.m321748717#321748718#0(0"0(0#0#61"/Users/alpascual/Pet Projects/MathTutor/Shared/SoundManager.m8615437888#2010"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch -c "/Users/alpascual/Pet Projects/MathTutor/Shared/SoundManager.m" -o "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/SoundManager.o"0#
+
+CCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/StartScreenController.o "/Users/alpascual/Pet Projects/MathTutor/StartScreenController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321752999.068440
+e321752999.194027
+r1
+xCompileC
+xbuild/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/StartScreenController.o
+x/Users/alpascual/Pet Projects/MathTutor/StartScreenController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/alpascual/Pet Projects/MathTutor/StartScreenController.m321752999#321752999#0(0"0(0#0#63"/Users/alpascual/Pet Projects/MathTutor/StartScreenController.m8626909632#2021"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch -c "/Users/alpascual/Pet Projects/MathTutor/StartScreenController.m" -o "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/StartScreenController.o"0#
+
+CCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/iPhonePlayController.o "/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhonePlayController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/iPhoneStartScreenController.o "/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/main.o "/Users/alpascual/Pet Projects/MathTutor/Shared/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s320615944.108088
+e320615944.161608
+r1
+xCompileC
+xbuild/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/main.o
+x/Users/alpascual/Pet Projects/MathTutor/Shared/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/alpascual/Pet Projects/MathTutor/Shared/main.m320615944#320615944#0(0"0(0#0#53"/Users/alpascual/Pet Projects/MathTutor/Shared/main.m8616000832#1994"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch -c "/Users/alpascual/Pet Projects/MathTutor/Shared/main.m" -o "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/PlayController.xib"
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/StartScreenController.xib"
+s320617350.036287
+e320617350.508499
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MathTutor/StartScreenController.xib
+lSLF07#2@36"CompileXIB StartScreenController.xib320617350#320617350#0(0"0(0#0#65"/Users/alpascual/Pet Projects/MathTutor/StartScreenController.xib8616383616#603"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/StartScreenController.nib" "/Users/alpascual/Pet Projects/MathTutor/StartScreenController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPad/MainWindow_iPad.xib"
+s321750290.295164
+e321750290.854510
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MathTutor/iPad/MainWindow_iPad.xib
+lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib321750290#321750290#0(0"0(0#0#64"/Users/alpascual/Pet Projects/MathTutor/iPad/MainWindow_iPad.xib8603908928#596"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MainWindow_iPad.nib" "/Users/alpascual/Pet Projects/MathTutor/iPad/MainWindow_iPad.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPadPlayController.xib"
+s321749680.941434
+e321749681.612762
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MathTutor/iPadPlayController.xib
+lSLF07#2@33"CompileXIB iPadPlayController.xib321749680#321749681#0(0"0(0#0#62"/Users/alpascual/Pet Projects/MathTutor/iPadPlayController.xib8618034688#597"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/iPadPlayController.nib" "/Users/alpascual/Pet Projects/MathTutor/iPadPlayController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPadStartScreenController.xib"
+s321752941.807225
+e321752942.299451
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MathTutor/iPadStartScreenController.xib
+lSLF07#2@40"CompileXIB iPadStartScreenController.xib321752941#321752942#0(0"0(0#0#69"/Users/alpascual/Pet Projects/MathTutor/iPadStartScreenController.xib8617434272#611"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/iPadStartScreenController.nib" "/Users/alpascual/Pet Projects/MathTutor/iPadStartScreenController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPhone/MainWindow_iPhone.xib"
+s320617349.592593
+e320617350.086689
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MathTutor/iPhone/MainWindow_iPhone.xib
+lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib320617349#320617350#0(0"0(0#0#68"/Users/alpascual/Pet Projects/MathTutor/iPhone/MainWindow_iPhone.xib8617401056#602"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MainWindow_iPhone.nib" "/Users/alpascual/Pet Projects/MathTutor/iPhone/MainWindow_iPhone.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhonePlayController.xib"
+s321749680.943247
+e321749681.560337
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhonePlayController.xib
+lSLF07#2@42"CompileXIB iPhone/iPhonePlayController.xib321749680#321749681#0(0"0(0#0#71"/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhonePlayController.xib8617805248#608"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/iPhonePlayController.nib" "/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhonePlayController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.xib"
+s321753106.317146
+e321753107.194895
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.xib
+lSLF07#2@49"CompileXIB iPhone/iPhoneStartScreenController.xib321753106#321753107#0(0"0(0#0#78"/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.xib8621102592#622"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/iPhoneStartScreenController.nib" "/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/1.wav Resources/1.wav
+s321751143.512556
+e321751143.670797
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/1.wav
+xResources/1.wav
+lSLF07#2@20"Copy Resources/1.wav321751143#321751143#0(0"0(0#0#55"/Users/alpascual/Pet Projects/MathTutor/Resources/1.wav8620196448#484"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/1.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/10.wav Resources/10.wav
+s321751143.528050
+e321751143.671548
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/10.wav
+xResources/10.wav
+lSLF07#2@21"Copy Resources/10.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/10.wav8616872928#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/10.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/11.wav Resources/11.wav
+s321751143.662058
+e321751143.799178
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/11.wav
+xResources/11.wav
+lSLF07#2@21"Copy Resources/11.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/11.wav8625690496#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/11.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/12.wav Resources/12.wav
+s321751143.671615
+e321751143.776884
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/12.wav
+xResources/12.wav
+lSLF07#2@21"Copy Resources/12.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/12.wav8620988832#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/12.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/13.wav Resources/13.wav
+s321751143.672322
+e321751143.802369
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/13.wav
+xResources/13.wav
+lSLF07#2@21"Copy Resources/13.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/13.wav8620702144#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/13.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/14.wav Resources/14.wav
+s321751143.676912
+e321751143.802510
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/14.wav
+xResources/14.wav
+lSLF07#2@21"Copy Resources/14.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/14.wav8620428896#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/14.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/15.wav Resources/15.wav
+s321751143.677701
+e321751143.802611
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/15.wav
+xResources/15.wav
+lSLF07#2@21"Copy Resources/15.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/15.wav8620286112#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/15.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/16.wav Resources/16.wav
+s321751143.682402
+e321751143.820257
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/16.wav
+xResources/16.wav
+lSLF07#2@21"Copy Resources/16.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/16.wav8620040352#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/16.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/17.wav Resources/17.wav
+s321751143.683200
+e321751143.820354
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/17.wav
+xResources/17.wav
+lSLF07#2@21"Copy Resources/17.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/17.wav8619800672#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/17.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/18.wav Resources/18.wav
+s321751143.686006
+e321751143.802734
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/18.wav
+xResources/18.wav
+lSLF07#2@21"Copy Resources/18.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/18.wav8619592736#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/18.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/19.wav Resources/19.wav
+s321751143.693281
+e321751143.864825
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/19.wav
+xResources/19.wav
+lSLF07#2@21"Copy Resources/19.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/19.wav8619407232#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/19.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/2.wav Resources/2.wav
+s321751143.513344
+e321751143.670990
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/2.wav
+xResources/2.wav
+lSLF07#2@20"Copy Resources/2.wav321751143#321751143#0(0"0(0#0#55"/Users/alpascual/Pet Projects/MathTutor/Resources/2.wav8619842880#484"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/2.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/20.wav Resources/20.wav
+s321751143.696712
+e321751143.820447
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/20.wav
+xResources/20.wav
+lSLF07#2@21"Copy Resources/20.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/20.wav8618193824#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/20.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/21.wav Resources/21.wav
+s321751143.776966
+e321751143.820148
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/21.wav
+xResources/21.wav
+lSLF07#2@21"Copy Resources/21.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/21.wav8617613152#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/21.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/22.wav Resources/22.wav
+s321751143.799269
+e321751143.996070
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/22.wav
+xResources/22.wav
+lSLF07#2@21"Copy Resources/22.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/22.wav8617371328#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/22.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/23.wav Resources/23.wav
+s321751143.802803
+e321751143.905951
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/23.wav
+xResources/23.wav
+lSLF07#2@21"Copy Resources/23.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/23.wav8616750304#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/23.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/24.wav Resources/24.wav
+s321751143.804247
+e321751143.995978
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/24.wav
+xResources/24.wav
+lSLF07#2@21"Copy Resources/24.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/24.wav8616271648#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/24.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/25.wav Resources/25.wav
+s321751143.813374
+e321751143.996160
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/25.wav
+xResources/25.wav
+lSLF07#2@21"Copy Resources/25.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/25.wav8600664256#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/25.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/26.wav Resources/26.wav
+s321751143.814376
+e321751143.996340
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/26.wav
+xResources/26.wav
+lSLF07#2@21"Copy Resources/26.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/26.wav8616478400#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/26.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/27.wav Resources/27.wav
+s321751143.820510
+e321751143.995872
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/27.wav
+xResources/27.wav
+lSLF07#2@21"Copy Resources/27.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/27.wav8614325408#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/27.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/28.wav Resources/28.wav
+s321751143.825230
+e321751143.967398
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/28.wav
+xResources/28.wav
+lSLF07#2@21"Copy Resources/28.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/28.wav8611769120#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/28.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/29.wav Resources/29.wav
+s321751143.830614
+e321751143.996249
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/29.wav
+xResources/29.wav
+lSLF07#2@21"Copy Resources/29.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/29.wav8601656384#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/29.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/3.wav Resources/3.wav
+s321751143.514682
+e321751143.671086
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/3.wav
+xResources/3.wav
+lSLF07#2@20"Copy Resources/3.wav321751143#321751143#0(0"0(0#0#55"/Users/alpascual/Pet Projects/MathTutor/Resources/3.wav8619466976#484"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/3.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/30.wav Resources/30.wav
+s321751143.831361
+e321751143.942467
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/30.wav
+xResources/30.wav
+lSLF07#2@21"Copy Resources/30.wav321751143#321751143#0(0"0(0#0#56"/Users/alpascual/Pet Projects/MathTutor/Resources/30.wav8618149120#485"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/30.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/4.wav Resources/4.wav
+s321751143.516249
+e321751143.659885
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/4.wav
+xResources/4.wav
+lSLF07#2@20"Copy Resources/4.wav321751143#321751143#0(0"0(0#0#55"/Users/alpascual/Pet Projects/MathTutor/Resources/4.wav8618163744#484"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/4.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/5.wav Resources/5.wav
+s321751143.518919
+e321751143.671178
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/5.wav
+xResources/5.wav
+lSLF07#2@20"Copy Resources/5.wav321751143#321751143#0(0"0(0#0#55"/Users/alpascual/Pet Projects/MathTutor/Resources/5.wav8617902432#484"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/5.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/6.wav Resources/6.wav
+s321751143.520606
+e321751143.671269
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/6.wav
+xResources/6.wav
+lSLF07#2@20"Copy Resources/6.wav321751143#321751143#0(0"0(0#0#55"/Users/alpascual/Pet Projects/MathTutor/Resources/6.wav8617796768#484"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/6.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/7.wav Resources/7.wav
+s321751143.525175
+e321751143.671360
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/7.wav
+xResources/7.wav
+lSLF07#2@20"Copy Resources/7.wav321751143#321751143#0(0"0(0#0#55"/Users/alpascual/Pet Projects/MathTutor/Resources/7.wav8617592352#484"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/7.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/8.wav Resources/8.wav
+s321751143.525906
+e321751143.696638
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/8.wav
+xResources/8.wav
+lSLF07#2@20"Copy Resources/8.wav321751143#321751143#0(0"0(0#0#55"/Users/alpascual/Pet Projects/MathTutor/Resources/8.wav8617384736#484"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/8.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/9.wav Resources/9.wav
+s321751143.526464
+e321751143.671452
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/9.wav
+xResources/9.wav
+lSLF07#2@20"Copy Resources/9.wav321751143#321751143#0(0"0(0#0#55"/Users/alpascual/Pet Projects/MathTutor/Resources/9.wav8617116512#484"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/9.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/Default.png Resources/Default.png
+s321070612.675954
+e321070612.684715
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/Default.png
+xResources/Default.png
+lSLF07#2@26"Copy Resources/Default.png321070612#321070612#0(0"0(0#0#61"/Users/alpascual/Pet Projects/MathTutor/Resources/Default.png8614768448#490"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/Default.png" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/Icon-72.png Resources/Icon-72.png
+s321761010.564221
+e321761010.580733
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/Icon-72.png
+xResources/Icon-72.png
+lSLF07#2@26"Copy Resources/Icon-72.png321761010#321761010#0(0"0(0#0#61"/Users/alpascual/Pet Projects/MathTutor/Resources/Icon-72.png8612532096#490"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/Icon-72.png" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/Icon.png Resources/Icon.png
+s321761010.565047
+e321761010.581805
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/Icon.png
+xResources/Icon.png
+lSLF07#2@23"Copy Resources/Icon.png321761010#321761010#0(0"0(0#0#58"/Users/alpascual/Pet Projects/MathTutor/Resources/Icon.png8612370304#487"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/Icon.png" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/Icon@2x.png Resources/Icon@2x.png
+s321761010.565648
+e321761010.581629
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/Icon@2x.png
+xResources/Icon@2x.png
+lSLF07#2@26"Copy Resources/Icon@2x.png321761010#321761010#0(0"0(0#0#61"/Users/alpascual/Pet Projects/MathTutor/Resources/Icon@2x.png8612175712#490"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/Icon@2x.png" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/TN_09-10_S_22A.jpg Resources/TN_09-10_S_22A.jpg
+s320617350.508650
+e320617350.513885
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/TN_09-10_S_22A.jpg
+xResources/TN_09-10_S_22A.jpg
+lSLF07#2@33"Copy Resources/TN_09-10_S_22A.jpg320617350#320617350#0(0"0(0#0#68"/Users/alpascual/Pet Projects/MathTutor/Resources/TN_09-10_S_22A.jpg8611053920#497"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/TN_09-10_S_22A.jpg" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/black.png Resources/black.png
+s320799515.130897
+e320799515.156719
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/black.png
+xResources/black.png
+lSLF07#2@24"Copy Resources/black.png320799515#320799515#0(0"0(0#0#59"/Users/alpascual/Pet Projects/MathTutor/Resources/black.png8614943008#488"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/black.png" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/divided.wav Resources/divided.wav
+s321751143.864907
+e321751144.003698
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/divided.wav
+xResources/divided.wav
+lSLF07#2@26"Copy Resources/divided.wav321751143#321751144#0(0"0(0#0#61"/Users/alpascual/Pet Projects/MathTutor/Resources/divided.wav8603857760#490"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/divided.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/minus.wav Resources/minus.wav
+s321751143.906286
+e321751144.051230
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/minus.wav
+xResources/minus.wav
+lSLF07#2@24"Copy Resources/minus.wav321751143#321751144#0(0"0(0#0#59"/Users/alpascual/Pet Projects/MathTutor/Resources/minus.wav8619730816#488"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/minus.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/no0.wav Resources/no0.wav
+s321751143.942559
+e321751144.307939
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/no0.wav
+xResources/no0.wav
+lSLF07#2@22"Copy Resources/no0.wav321751143#321751144#0(0"0(0#0#57"/Users/alpascual/Pet Projects/MathTutor/Resources/no0.wav8626035904#486"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/no0.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/no1.wav Resources/no1.wav
+s321751143.967486
+e321751144.532809
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/no1.wav
+xResources/no1.wav
+lSLF07#2@22"Copy Resources/no1.wav321751143#321751144#0(0"0(0#0#57"/Users/alpascual/Pet Projects/MathTutor/Resources/no1.wav8622606112#486"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/no1.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/no2.wav Resources/no2.wav
+s321751143.996401
+e321751144.609558
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/no2.wav
+xResources/no2.wav
+lSLF07#2@22"Copy Resources/no2.wav321751143#321751144#0(0"0(0#0#57"/Users/alpascual/Pet Projects/MathTutor/Resources/no2.wav8620784288#486"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/no2.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/no3.wav Resources/no3.wav
+s321751143.997507
+e321751144.598267
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/no3.wav
+xResources/no3.wav
+lSLF07#2@22"Copy Resources/no3.wav321751143#321751144#0(0"0(0#0#57"/Users/alpascual/Pet Projects/MathTutor/Resources/no3.wav8620592544#486"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/no3.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/no4.wav Resources/no4.wav
+s321751143.998490
+e321751144.467162
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/no4.wav
+xResources/no4.wav
+lSLF07#2@22"Copy Resources/no4.wav321751143#321751144#0(0"0(0#0#57"/Users/alpascual/Pet Projects/MathTutor/Resources/no4.wav8620396352#486"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/no4.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/no5.wav Resources/no5.wav
+s321751144.000485
+e321751144.413371
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/no5.wav
+xResources/no5.wav
+lSLF07#2@22"Copy Resources/no5.wav321751144#321751144#0(0"0(0#0#57"/Users/alpascual/Pet Projects/MathTutor/Resources/no5.wav8620223168#486"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/no5.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/plus.wav Resources/plus.wav
+s321751144.001269
+e321751144.193704
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/plus.wav
+xResources/plus.wav
+lSLF07#2@23"Copy Resources/plus.wav321751144#321751144#0(0"0(0#0#58"/Users/alpascual/Pet Projects/MathTutor/Resources/plus.wav8619974656#487"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/plus.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/times.wav Resources/times.wav
+s321751144.002471
+e321751144.264944
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/times.wav
+xResources/times.wav
+lSLF07#2@24"Copy Resources/times.wav321751144#321751144#0(0"0(0#0#59"/Users/alpascual/Pet Projects/MathTutor/Resources/times.wav8619735360#488"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/times.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/welcome.wav Resources/welcome.wav
+s321751144.003768
+e321751144.463080
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/welcome.wav
+xResources/welcome.wav
+lSLF07#2@26"Copy Resources/welcome.wav321751144#321751144#0(0"0(0#0#61"/Users/alpascual/Pet Projects/MathTutor/Resources/welcome.wav8619577952#490"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/welcome.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/what.wav Resources/what.wav
+s321751144.051339
+e321751144.315338
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/what.wav
+xResources/what.wav
+lSLF07#2@23"Copy Resources/what.wav321751144#321751144#0(0"0(0#0#58"/Users/alpascual/Pet Projects/MathTutor/Resources/what.wav8619407840#487"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/what.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/yes0.wav Resources/yes0.wav
+s321751144.193802
+e321751144.378855
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/yes0.wav
+xResources/yes0.wav
+lSLF07#2@23"Copy Resources/yes0.wav321751144#321751144#0(0"0(0#0#58"/Users/alpascual/Pet Projects/MathTutor/Resources/yes0.wav8618034688#487"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/yes0.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/yes1.wav Resources/yes1.wav
+s321751144.265025
+e321751144.429264
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/yes1.wav
+xResources/yes1.wav
+lSLF07#2@23"Copy Resources/yes1.wav321751144#321751144#0(0"0(0#0#58"/Users/alpascual/Pet Projects/MathTutor/Resources/yes1.wav8617884480#487"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/yes1.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/yes2.wav Resources/yes2.wav
+s321751144.308041
+e321751144.614705
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/yes2.wav
+xResources/yes2.wav
+lSLF07#2@23"Copy Resources/yes2.wav321751144#321751144#0(0"0(0#0#58"/Users/alpascual/Pet Projects/MathTutor/Resources/yes2.wav8617820896#487"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/yes2.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/yes3.wav Resources/yes3.wav
+s321751144.315425
+e321751144.615000
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/yes3.wav
+xResources/yes3.wav
+lSLF07#2@23"Copy Resources/yes3.wav321751144#321751144#0(0"0(0#0#58"/Users/alpascual/Pet Projects/MathTutor/Resources/yes3.wav8617563648#487"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/yes3.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/yes4.wav Resources/yes4.wav
+s321751144.378943
+e321751144.522719
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/yes4.wav
+xResources/yes4.wav
+lSLF07#2@23"Copy Resources/yes4.wav321751144#321751144#0(0"0(0#0#58"/Users/alpascual/Pet Projects/MathTutor/Resources/yes4.wav8626058048#487"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/yes4.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CCpResource build/Debug-iphonesimulator/MathTutor.app/yes5.wav Resources/yes5.wav
+s321751144.413481
+e321751144.502865
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MathTutor.app/yes5.wav
+xResources/yes5.wav
+lSLF07#2@23"Copy Resources/yes5.wav321751144#321751144#0(0"0(0#0#58"/Users/alpascual/Pet Projects/MathTutor/Resources/yes5.wav8623028128#487"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MathTutor/Resources/yes5.wav" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+
+CDataModelVersionCompile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor.momd" "/Users/alpascual/Pet Projects/MathTutor/Shared/MathTutor.xcdatamodeld"
+s320615944.107084
+e320615944.179787
+r1
+xDataModelVersionCompile
+x/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor.momd
+x/Users/alpascual/Pet Projects/MathTutor/Shared/MathTutor.xcdatamodeld
+lSLF07#2@110"DataModelVersionCompile build/Debug-iphonesimulator/MathTutor.app/MathTutor.momd Shared/MathTutor.xcdatamodeld320615944#320615944#0(0"0(0#0#69"/Users/alpascual/Pet Projects/MathTutor/Shared/MathTutor.xcdatamodeld8615489568#408"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 "/Users/alpascual/Pet Projects/MathTutor/Shared/MathTutor.xcdatamodeld" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor.momd"0#
+
+CGenerateDSYMFile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app.dSYM" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor"
+s321752999.251316
+e321752999.290150
+r1
+xGenerateDSYMFile
+x/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app.dSYM
+x/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/MathTutor.app.dSYM build/Debug-iphonesimulator/MathTutor.app/MathTutor321752999#321752999#0(0"0(0#0#91"/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor8624270496#398"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor" -o "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app.dSYM"0#
+
+CLd "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor" normal i386
+s321752999.194107
+e321752999.251226
+r1
+xLd
+x/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor
+xnormal
+xi386
+lSLF07#2@96"Link /Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor321752999#321752999#0(0"0(0#0#0"8626134208#984"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" "-F/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" -filelist "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/MathTutor.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework AudioToolbox -framework iAd -o "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor"0#
+
+CProcessInfoPlistFile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/Info.plist" MathTutor-Info.plist
+s321761010.490229
+e321761010.561483
+r1
+xProcessInfoPlistFile
+x/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/Info.plist
+xMathTutor-Info.plist
+lSLF07#2@28"Process MathTutor-Info.plist321761010#321761010#0(0"0(0#0#60"/Users/alpascual/Pet Projects/MathTutor/MathTutor-Info.plist7090148158703691776#494"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MathTutor-Info.plist -genpkginfo "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/Info.plist"0#
+
+CProcessPCH /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch.gch MathTutor_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s320615941.937838
+e320615944.106840
+r1
+xProcessPCH
+x/var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch.gch
+xMathTutor_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile MathTutor_Prefix.pch320615941#320615944#0(0"0(0#0#60"/Users/alpascual/Pet Projects/MathTutor/MathTutor_Prefix.pch8615452160#1874"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources" -c "/Users/alpascual/Pet Projects/MathTutor/MathTutor_Prefix.pch" -o /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch.gch0#
+
+CTouch "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"
+s321761010.582916
+e321761010.585626
+r1
+xTouch
+x/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app
+lSLF07#2@87"Touch /Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app321761010#321761010#0(0"0(0#0#0"8609204704#286"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"0#
+

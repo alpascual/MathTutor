@@ -1,0 +1,540 @@
+TMathTutor
+v7
+r0
+t320615944.354686
+cCheck dependencies
+cProcessInfoPlistFile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/Info.plist" MathTutor-Info.plist
+cCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPad/MainWindow_iPad.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPhone/MainWindow_iPhone.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/MathTutor/StartScreenController.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.xib"
+cProcessPCH /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch.gch MathTutor_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor.momd" "/Users/alpascual/Pet Projects/MathTutor/Shared/MathTutor.xcdatamodeld"
+cCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/main.o "/Users/alpascual/Pet Projects/MathTutor/Shared/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPad.o "/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_Shared.o "/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPhone.o "/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/StartScreenController.o "/Users/alpascual/Pet Projects/MathTutor/StartScreenController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC122A000000000001D6CE0
+t1287725728
+s1928416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC12294000000000000046B
+t1287725716
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/alpascual/Pet Projects/MathTutor/MathTutor_Prefix.pch
+c000000004D6BFD0900000000000000BB
+t1298922761
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.h
+c000000004D6BFE820000000000000397
+t1298923138
+s919
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"StartScreenController.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m
+c000000004D6BFE840000000000001B0B
+t1298923140
+s6923
+i"AppDelegate_Shared.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/MathTutor.xcdatamodeld
+c000000004D6BFD090000000000000088
+t1298922761
+s136
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/main.m
+c000000004D6BFD09000000000000015E
+t1298922761
+s350
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/MathTutor/StartScreenController.h
+c000000004D6BFD2E00000000000000E3
+t1298922798
+s227
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/MathTutor/StartScreenController.m
+c000000004D6BFD2E0000000000000525
+t1298922798
+s1317
+i"StartScreenController.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/StartScreenController.xib
+c000000004D6BFD2E00000000000050A2
+t1298922798
+s20642
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app.dSYM
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/Info.plist
+t1298923140
+s913
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MainWindow_iPad.nib
+t1298923141
+s982
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MainWindow_iPhone.nib
+t1298923141
+s984
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor.momd
+t1298923144
+s136
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/PkgInfo
+t1298923140
+s8
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/StartScreenController.nib
+t1298923141
+s795
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/iPhoneStartScreenController.nib
+t1298923141
+s764
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_Shared.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPad.o
+t1298923144
+s47336
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPhone.o
+t1298923144
+s48472
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/MathTutor.LinkFileList
+c000000004D6BFE8400000000000002B4
+t1298923140
+s692
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/StartScreenController.o
+t1298923144
+s38220
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/iPhoneStartScreenController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/main.o
+t1298923144
+s6320
+
+N/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.h
+c000000004D6BFD0900000000000000FA
+t1298922761
+s250
+i<UIKit/UIKit.h>
+i"AppDelegate_Shared.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m
+c000000004D6BFE480000000000000719
+t1298923080
+s1817
+i"AppDelegate_iPad.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/iPad/MainWindow_iPad.xib
+c000000004D6BFD09000000000000389F
+t1298922761
+s14495
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.h
+c000000004D6BFD0900000000000000FE
+t1298922761
+s254
+i<UIKit/UIKit.h>
+i"AppDelegate_Shared.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m
+c000000004D6BFD090000000000000AC2
+t1298922761
+s2754
+i"AppDelegate_iPhone.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/MainWindow_iPhone.xib
+c000000004D6BFD090000000000003A8D
+t1298922761
+s14989
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.h
+c000000004D6BFD5300000000000000EF
+t1298922835
+s239
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.m
+c000000004D6BFD5300000000000005BC
+t1298922835
+s1468
+i"iPhoneStartScreenController.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.xib
+c000000004D6BFE390000000000003ABC
+t1298923065
+s15036
+
+N/var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch.gch
+t1298923142
+s15453392
+
+NMathTutor-Info.plist
+c000000004D6BFD090000000000000569
+t1298922761
+s1385
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320615940#320615940#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_Shared.o "/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s320615944.179884
+e320615944.284866
+r0
+xCompileC
+xbuild/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_Shared.o
+x/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m: In function '-[AppDelegate_Shared startCalled]':
+o/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:173: error: request for member 'mainController' in something not a structure or union
+o/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:173: error: 'MainController' undeclared (first use in this function)
+o/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:173: error: (Each undeclared identifier is reported only once
+o/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:173: error: for each function it appears in.)
+o/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:175: error: request for member 'mainController' in something not a structure or union
+o/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:176: error: request for member 'mainController' in something not a structure or union
+o/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:177: error: request for member 'mainController' in something not a structure or union
+o/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:177: error: request for member 'mainController' in something not a structure or union
+o/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:179: error: request for member 'mainController' in something not a structure or union
+o/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:184: error: request for member 'mainController' in something not a structure or union
+o/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:185: error: request for member 'navigationController' in something not a structure or union
+o/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:186: error: request for member 'navigationController' in something not a structure or union
+o/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:186: error: request for member 'mainController' in something not a structure or union
+o/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:188: error: 'navigationController' undeclared (first use in this function)
+o{standard input}:679:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000008$pb"
+o{standard input}:679:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:675:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_5" minus "L00000000008$pb"
+o{standard input}:675:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_5" can't be undefined in a subtraction expression
+o{standard input}:667:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000008$pb"
+o{standard input}:667:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:661:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.window$non_lazy_ptr" minus "L00000000008$pb"
+o{standard input}:661:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.window$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:654:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000008$pb"
+o{standard input}:654:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:648:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" minus "L00000000008$pb"
+o{standard input}:648:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:641:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000008$pb"
+o{standard input}:641:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:635:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" minus "L00000000008$pb"
+o{standard input}:635:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:628:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000008$pb"
+o{standard input}:628:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:622:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" minus "L00000000008$pb"
+o{standard input}:622:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:581:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000007$pb"
+o{standard input}:581:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:573:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000007$pb"
+o{standard input}:573:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:567:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000007$pb"
+o{standard input}:567:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:564:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000007$pb"
+o{standard input}:564:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression
+o{standard input}:532:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" minus "L00000000006$pb"
+o{standard input}:532:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:516:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000006$pb"
+o{standard input}:516:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:499:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000006$pb"
+o{standard input}:499:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:496:non-relocatable subtraction expression, "L_NSSQLiteStoreType$non_lazy_ptr" minus "L00000000006$pb"
+o{standard input}:496:symbol: "L_NSSQLiteStoreType$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:490:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" minus "L00000000006$pb"
+o{standard input}:490:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:481:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000006$pb"
+o{standard input}:481:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:475:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000006$pb"
+o{standard input}:475:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:468:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000006$pb"
+o{standard input}:468:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:465:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000006$pb"
+o{standard input}:465:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
+o{standard input}:460:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" minus "L00000000006$pb"
+o{standard input}:460:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:449:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000006$pb"
+o{standard input}:449:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:442:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000006$pb"
+o{standard input}:442:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:432:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" minus "L00000000006$pb"
+o{standard input}:432:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:423:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" minus "L00000000006$pb"
+o{standard input}:423:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:376:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:376:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:366:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000005$pb"
+o{standard input}:366:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:360:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000005$pb"
+o{standard input}:360:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:357:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000005$pb"
+o{standard input}:357:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression
+o{standard input}:352:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:352:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:342:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000005$pb"
+o{standard input}:342:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:334:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000005$pb"
+o{standard input}:334:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:331:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000005$pb"
+o{standard input}:331:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:322:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:322:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:313:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:313:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:258:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:258:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:248:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000004$pb"
+o{standard input}:248:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:242:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:242:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:234:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000004$pb"
+o{standard input}:234:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:228:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000004$pb"
+o{standard input}:228:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:225:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000004$pb"
+o{standard input}:225:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+o{standard input}:220:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:220:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:209:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000004$pb"
+o{standard input}:209:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:199:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:199:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:190:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:190:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:151:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"
+o{standard input}:151:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:139:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000003$pb"
+o{standard input}:139:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:131:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000003$pb"
+o{standard input}:131:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:120:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000003$pb"
+o{standard input}:120:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:79:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"
+o{standard input}:79:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:51:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:51:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15
+o{standard input}:unknown:Undefined local symbol L_NSSQLiteStoreType$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_AppDelegate_Shared.window$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21
+lSLF07#2@75"Compile /Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m320615944#320615944#0(18446"/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m: In function '-[AppDelegate_Shared startCalled]':/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:173: error: request for member 'mainController' in something not a structure or union/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:173: error: 'MainController' undeclared (first use in this function)/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:173: error: (Each undeclared identifier is reported only once/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:173: error: for each function it appears in.)/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:175: error: request for member 'mainController' in something not a structure or union/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:176: error: request for member 'mainController' in something not a structure or union/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:177: error: request for member 'mainController' in something not a structure or union/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:177: error: request for member 'mainController' in something not a structure or union/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:179: error: request for member 'mainController' in something not a structure or union/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:184: error: request for member 'mainController' in something not a structure or union/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:185: error: request for member 'navigationController' in something not a structure or union/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:186: error: request for member 'navigationController' in something not a structure or union/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:186: error: request for member 'mainController' in something not a structure or union/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m:188: error: 'navigationController' undeclared (first use in this function){standard input}:679:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000008$pb"{standard input}:679:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:675:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_5" minus "L00000000008$pb"{standard input}:675:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_5" can't be undefined in a subtraction expression{standard input}:667:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000008$pb"{standard input}:667:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:661:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.window$non_lazy_ptr" minus "L00000000008$pb"{standard input}:661:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.window$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:654:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000008$pb"{standard input}:654:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:648:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" minus "L00000000008$pb"{standard input}:648:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:641:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000008$pb"{standard input}:641:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:635:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" minus "L00000000008$pb"{standard input}:635:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:628:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000008$pb"{standard input}:628:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:622:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" minus "L00000000008$pb"{standard input}:622:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:581:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000007$pb"{standard input}:581:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:573:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000007$pb"{standard input}:573:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:567:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000007$pb"{standard input}:567:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:564:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000007$pb"{standard input}:564:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression{standard input}:532:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" minus "L00000000006$pb"{standard input}:532:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:516:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000006$pb"{standard input}:516:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:499:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000006$pb"{standard input}:499:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:496:non-relocatable subtraction expression, "L_NSSQLiteStoreType$non_lazy_ptr" minus "L00000000006$pb"{standard input}:496:symbol: "L_NSSQLiteStoreType$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:490:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" minus "L00000000006$pb"{standard input}:490:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:481:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000006$pb"{standard input}:481:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:475:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000006$pb"{standard input}:475:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:468:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000006$pb"{standard input}:468:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:465:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000006$pb"{standard input}:465:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression{standard input}:460:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" minus "L00000000006$pb"{standard input}:460:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:449:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000006$pb"{standard input}:449:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:442:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000006$pb"{standard input}:442:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:432:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" minus "L00000000006$pb"{standard input}:432:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:423:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" minus "L00000000006$pb"{standard input}:423:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:376:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" minus "L00000000005$pb"{standard input}:376:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:366:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000005$pb"{standard input}:366:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:360:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000005$pb"{standard input}:360:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:357:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000005$pb"{standard input}:357:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression{standard input}:352:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" minus "L00000000005$pb"{standard input}:352:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:342:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000005$pb"{standard input}:342:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:334:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000005$pb"{standard input}:334:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:331:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000005$pb"{standard input}:331:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:322:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" minus "L00000000005$pb"{standard input}:322:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:313:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" minus "L00000000005$pb"{standard input}:313:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:258:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" minus "L00000000004$pb"{standard input}:258:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:248:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000004$pb"{standard input}:248:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:242:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" minus "L00000000004$pb"{standard input}:242:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:234:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000004$pb"{standard input}:234:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:228:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000004$pb"{standard input}:228:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:225:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000004$pb"{standard input}:225:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression{standard input}:220:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" minus "L00000000004$pb"{standard input}:220:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:209:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000004$pb"{standard input}:209:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:199:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" minus "L00000000004$pb"{standard input}:199:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:190:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" minus "L00000000004$pb"{standard input}:190:symbol: "L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:151:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"{standard input}:151:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:139:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000003$pb"{standard input}:139:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:131:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000003$pb"{standard input}:131:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:120:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000003$pb"{standard input}:120:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:79:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"{standard input}:79:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:51:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:51:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectContext_$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_AppDelegate_Shared.managedObjectModel_$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_AppDelegate_Shared.persistentStoreCoordinator_$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15{standard input}:unknown:Undefined local symbol L_NSSQLiteStoreType$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_AppDelegate_Shared.window$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2112(4@73"Request for member 'mainController' in something not a structure or union320615944#118#154#0(6@67"/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m320615940#173#0#173#0#0"0(4@56"'MainController' undeclared (first use in this function)320615944#272#137#0(6@67"/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m320615940#173#0#173#0#43"'*' undeclared (first use in this function)0(4@73"Request for member 'mainController' in something not a structure or union320615944#653#154#0(6@67"/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m320615940#175#0#175#0#0"0(4@73"Request for member 'mainController' in something not a structure or union320615944#807#154#0(6@67"/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m320615940#176#0#176#0#0"0(4@73"Request for member 'mainController' in something not a structure or union320615944#961#154#0(6@67"/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m320615940#177#0#177#0#0"0(4@73"Request for member 'mainController' in something not a structure or union320615944#1115#154#0(6@67"/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m320615940#177#0#177#0#0"0(4@73"Request for member 'mainController' in something not a structure or union320615944#1269#154#0(6@67"/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m320615940#179#0#179#0#0"0(4@73"Request for member 'mainController' in something not a structure or union320615944#1423#154#0(6@67"/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m320615940#184#0#184#0#0"0(4@79"Request for member 'navigationController' in something not a structure or union320615944#1577#160#0(6@67"/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m320615940#185#0#185#0#0"0(4@79"Request for member 'navigationController' in something not a structure or union320615944#1737#160#0(6@67"/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m320615940#186#0#186#0#0"0(4@73"Request for member 'mainController' in something not a structure or union320615944#1897#154#0(6@67"/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m320615940#186#0#186#0#0"0(4@62"'navigationController' undeclared (first use in this function)320615944#2051#143#0(6@67"/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m320615940#188#0#188#0#43"'*' undeclared (first use in this function)0(0#0#67"/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m8615709856#2022"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch -c "/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m" -o "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_Shared.o"1#
+
+CCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPad.o "/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s320615944.161701
+e320615944.262253
+r1
+xCompileC
+xbuild/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPad.o
+x/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m320615944#320615944#0(0"0(0#0#63"/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m8615725344#2016"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch -c "/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m" -o "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPad.o"0#
+
+CCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPhone.o "/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s320615944.262355
+e320615944.354608
+r1
+xCompileC
+xbuild/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPhone.o
+x/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m320615944#320615944#0(0"0(0#0#67"/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m8615859520#2022"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch -c "/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m" -o "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPhone.o"0#
+
+CCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/StartScreenController.o "/Users/alpascual/Pet Projects/MathTutor/StartScreenController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s320615944.284958
+e320615944.349797
+r1
+xCompileC
+xbuild/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/StartScreenController.o
+x/Users/alpascual/Pet Projects/MathTutor/StartScreenController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/alpascual/Pet Projects/MathTutor/StartScreenController.m320615944#320615944#0(0"0(0#0#63"/Users/alpascual/Pet Projects/MathTutor/StartScreenController.m8600617664#2021"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch -c "/Users/alpascual/Pet Projects/MathTutor/StartScreenController.m" -o "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/StartScreenController.o"0#
+
+CCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/iPhoneStartScreenController.o "/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/main.o "/Users/alpascual/Pet Projects/MathTutor/Shared/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s320615944.108088
+e320615944.161608
+r1
+xCompileC
+xbuild/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/main.o
+x/Users/alpascual/Pet Projects/MathTutor/Shared/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/alpascual/Pet Projects/MathTutor/Shared/main.m320615944#320615944#0(0"0(0#0#53"/Users/alpascual/Pet Projects/MathTutor/Shared/main.m8616000832#1994"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch -c "/Users/alpascual/Pet Projects/MathTutor/Shared/main.m" -o "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/StartScreenController.xib"
+s320615941.338227
+e320615941.933154
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MathTutor/StartScreenController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/alpascual/Pet Projects/MathTutor/StartScreenController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on StartScreenController.
+lSLF07#2@36"CompileXIB StartScreenController.xib320615941#320615941#0(237"/* com.apple.ibtool.document.warnings *//Users/alpascual/Pet Projects/MathTutor/StartScreenController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on StartScreenController.1(22@116"The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on StartScreenController.320615941#18446744073709551615#0#0(6@65"/Users/alpascual/Pet Projects/MathTutor/StartScreenController.xib320615598#18446744073709551615#0#18446744073709551615#0#0"0(0#0#65"/Users/alpascual/Pet Projects/MathTutor/StartScreenController.xib8615706112#603"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/StartScreenController.nib" "/Users/alpascual/Pet Projects/MathTutor/StartScreenController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPad/MainWindow_iPad.xib"
+s320615940.947840
+e320615941.338140
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MathTutor/iPad/MainWindow_iPad.xib
+lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib320615940#320615941#0(0"0(0#0#64"/Users/alpascual/Pet Projects/MathTutor/iPad/MainWindow_iPad.xib8615416224#596"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MainWindow_iPad.nib" "/Users/alpascual/Pet Projects/MathTutor/iPad/MainWindow_iPad.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPhone/MainWindow_iPhone.xib"
+s320615940.948571
+e320615941.344797
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MathTutor/iPhone/MainWindow_iPhone.xib
+lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib320615940#320615941#0(0"0(0#0#68"/Users/alpascual/Pet Projects/MathTutor/iPhone/MainWindow_iPhone.xib8615865536#602"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MainWindow_iPhone.nib" "/Users/alpascual/Pet Projects/MathTutor/iPhone/MainWindow_iPhone.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.xib"
+s320615941.344884
+e320615941.937721
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.xib
+lSLF07#2@49"CompileXIB iPhone/iPhoneStartScreenController.xib320615941#320615941#0(0"0(0#0#78"/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.xib8615407392#622"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/iPhoneStartScreenController.nib" "/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CDataModelVersionCompile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor.momd" "/Users/alpascual/Pet Projects/MathTutor/Shared/MathTutor.xcdatamodeld"
+s320615944.107084
+e320615944.179787
+r1
+xDataModelVersionCompile
+x/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor.momd
+x/Users/alpascual/Pet Projects/MathTutor/Shared/MathTutor.xcdatamodeld
+lSLF07#2@110"DataModelVersionCompile build/Debug-iphonesimulator/MathTutor.app/MathTutor.momd Shared/MathTutor.xcdatamodeld320615944#320615944#0(0"0(0#0#69"/Users/alpascual/Pet Projects/MathTutor/Shared/MathTutor.xcdatamodeld8615489568#408"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 "/Users/alpascual/Pet Projects/MathTutor/Shared/MathTutor.xcdatamodeld" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor.momd"0#
+
+CGenerateDSYMFile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app.dSYM" "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor"
+r0
+
+CLd "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/MathTutor" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/Info.plist" MathTutor-Info.plist
+s320615940.944086
+e320615940.947751
+r1
+xProcessInfoPlistFile
+x/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/Info.plist
+xMathTutor-Info.plist
+lSLF07#2@28"Process MathTutor-Info.plist320615940#320615940#0(0"0(0#0#60"/Users/alpascual/Pet Projects/MathTutor/MathTutor-Info.plist8608797152#494"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MathTutor-Info.plist -genpkginfo "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app/Info.plist"0#
+
+CProcessPCH /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch.gch MathTutor_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s320615941.937838
+e320615944.106840
+r1
+xProcessPCH
+x/var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch.gch
+xMathTutor_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile MathTutor_Prefix.pch320615941#320615944#0(0"0(0#0#60"/Users/alpascual/Pet Projects/MathTutor/MathTutor_Prefix.pch8615452160#1874"    cd "/Users/alpascual/Pet Projects/MathTutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/MathTutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Debug-iphonesimulator/MathTutor.build/DerivedSources" -c "/Users/alpascual/Pet Projects/MathTutor/MathTutor_Prefix.pch" -o /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-becybwbhfmrkxfammiudborbgvjc/MathTutor_Prefix.pch.gch0#
+
+CTouch "/Users/alpascual/Pet Projects/MathTutor/build/Debug-iphonesimulator/MathTutor.app"
+r0
+

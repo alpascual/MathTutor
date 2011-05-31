@@ -1,0 +1,996 @@
+TMathTutor
+v7
+r1
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004CC1222F0000000000010AAC
+t1287725615
+s68268
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC122A000000000001D6CE0
+t1287725728
+s1928416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC12294000000000000046B
+t1287725716
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004CC657750000000000000071
+t1288066933
+s113
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004CC65780000000000002F590
+t1288066944
+s193936
+
+N/Users/alpascual/Pet Projects/MathTutor/MathTutor_Prefix.pch
+c000000004D6BFD0900000000000000BB
+t1298922761
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/MathTutor/PlayController.h
+c000000004D7D528C0000000000000753
+t1300058764
+s1875
+i<UIKit/UIKit.h>
+i"SoundManager.h"
+i"SoundDelegate.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/PlayController.m
+c000000004D7D5522000000000000146C
+t1300059426
+s5228
+i"PlayController.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/1.wav
+c000000004D72CAA5000000000000AC2C
+t1299368613
+s44076
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/10.wav
+c000000004D72CCC60000000000011C2C
+t1299369158
+s72748
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/11.wav
+c000000004D72E9FE0000000000012C2C
+t1299376638
+s76844
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/12.wav
+c000000004D72EA27000000000000E82C
+t1299376679
+s59436
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/13.wav
+c000000004D72EA45000000000001242C
+t1299376709
+s74796
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/14.wav
+c000000004D72EA75000000000001642C
+t1299376757
+s91180
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/15.wav
+c000000004D72EAA9000000000001102C
+t1299376809
+s69676
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/16.wav
+c000000004D72EADB000000000001702C
+t1299376859
+s94252
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/17.wav
+c000000004D72EAFF0000000000019C2C
+t1299376895
+s105516
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/18.wav
+c000000004D72EB1B000000000001702C
+t1299376923
+s94252
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/19.wav
+c000000004D72EB38000000000001882C
+t1299376952
+s100396
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/2.wav
+c000000004D72CAFE000000000000C82C
+t1299368702
+s51244
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/20.wav
+c000000004D72EB55000000000001142C
+t1299376981
+s70700
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/21.wav
+c000000004D72EBB5000000000001482C
+t1299377077
+s84012
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/22.wav
+c000000004D72EBD1000000000001942C
+t1299377105
+s103468
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/23.wav
+c000000004D72EBF10000000000016C2C
+t1299377137
+s93228
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/24.wav
+c000000004D72EC09000000000002682C
+t1299377161
+s157740
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/25.wav
+c000000004D72EC2B000000000001802C
+t1299377195
+s98348
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/26.wav
+c000000004D72EC46000000000001B02C
+t1299377222
+s110636
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/27.wav
+c000000004D72EC5E000000000001802C
+t1299377246
+s98348
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/28.wav
+c000000004D72EC7D000000000001342C
+t1299377277
+s78892
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/29.wav
+c000000004D72EC930000000000020C2C
+t1299377299
+s134188
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/3.wav
+c000000004D72CB90000000000001202C
+t1299368848
+s73772
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/30.wav
+c000000004D72ECC3000000000000CC2C
+t1299377347
+s52268
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/4.wav
+c000000004D72CBBF000000000000DC2C
+t1299368895
+s56364
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/5.wav
+c000000004D72CBEC000000000001342C
+t1299368940
+s78892
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/6.wav
+c000000004D72CC18000000000000DC2C
+t1299368984
+s56364
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/7.wav
+c000000004D72CC340000000000011C2C
+t1299369012
+s72748
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/8.wav
+c000000004D72CC790000000000019C2C
+t1299369081
+s105516
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/9.wav
+c000000004D72CCAD000000000001F82C
+t1299369133
+s129068
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/Default.png
+c000000004D72EE8B0000000000025235
+t1299377803
+s152117
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/Icon-72.png
+c000000004D7D5C48000000000000201A
+t1300061256
+s8218
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/Icon.png
+c000000004D7D5C6600000000000016F3
+t1300061286
+s5875
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/Icon@2x.png
+c000000004D7D5C2A0000000000004092
+t1300061226
+s16530
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/TN_09-10_S_22A.jpg
+c000000004D118D40000000000000A531
+t1292995904
+s42289
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/black.png
+c000000004D6ECA590000000000001822
+t1299106393
+s6178
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/divided.wav
+c000000004D72ED6B000000000002542C
+t1299377515
+s152620
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/minus.wav
+c000000004D72E9D0000000000001742C
+t1299376592
+s95276
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/no0.wav
+c000000004D1D63B9000000000003102C
+t1293771705
+s200748
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/no1.wav
+c000000004D16C04B00000000000C002C
+t1293336651
+s786476
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/no2.wav
+c000000004D16C03E000000000008002C
+t1293336638
+s524332
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/no3.wav
+c000000004D16C1B3000000000008002C
+t1293337011
+s524332
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/no4.wav
+c000000004D1D63CE000000000004282C
+t1293771726
+s272428
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/no5.wav
+c000000004D1D63E4000000000003782C
+t1293771748
+s227372
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/plus.wav
+c000000004D72EB940000000000013C2C
+t1299377044
+s80940
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/times.wav
+c000000004D72CD15000000000001982C
+t1299369237
+s104492
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/welcome.wav
+c000000004D72ED20000000000004702C
+t1299377440
+s290860
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/what.wav
+c000000004D72ECFB000000000002E02C
+t1299377403
+s188460
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/yes0.wav
+c000000004D1D6332000000000002282C
+t1293771570
+s141356
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/yes1.wav
+c000000004D1F8C530000000000024FEC
+t1293913171
+s151532
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/yes2.wav
+c000000004D16BDB1000000000008002C
+t1293335985
+s524332
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/yes3.wav
+c000000004D16BDD9000000000008002C
+t1293336025
+s524332
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/yes4.wav
+c000000004D1D635E000000000003082C
+t1293771614
+s198700
+
+N/Users/alpascual/Pet Projects/MathTutor/Resources/yes5.wav
+c000000004D1D6378000000000002582C
+t1293771640
+s153644
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.h
+c000000004D6BFF83000000000000048B
+t1298923395
+s1163
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"StartScreenController.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m
+c000000004D6C04940000000000001B90
+t1298924692
+s7056
+i"AppDelegate_Shared.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/MathTutor.xcdatamodeld
+c000000004D6BFD090000000000000088
+t1298922761
+s136
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/SoundDelegate.h
+c000000004D4F08EB00000000000000CD
+t1297025259
+s205
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/SoundManager.h
+c000000004D7D4748000000000000034F
+t1300055880
+s847
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioServices.h>
+i"SoundDelegate.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/SoundManager.m
+c000000004D7D476D0000000000000D05
+t1300055917
+s3333
+i"SoundManager.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/Shared/main.m
+c000000004D6BFD09000000000000015E
+t1298922761
+s350
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/MathTutor/StartScreenController.h
+c000000004D7D58130000000000000247
+t1300060179
+s583
+i<UIKit/UIKit.h>
+i"PlayController.h"
+i"SoundManager.h"
+i<iAd/iAd.h>
+
+N/Users/alpascual/Pet Projects/MathTutor/StartScreenController.m
+c000000004D7D5749000000000000095C
+t1300059977
+s2396
+i"StartScreenController.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app.dSYM
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/1.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/10.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/11.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/12.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/13.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/14.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/15.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/16.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/17.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/18.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/19.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/2.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/20.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/21.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/22.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/23.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/24.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/25.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/26.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/27.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/28.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/29.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/3.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/30.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/4.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/5.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/6.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/7.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/8.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/9.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/Default.png
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/Icon-72.png
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/Icon.png
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/Icon@2x.png
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/Info.plist
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/MainWindow_iPad.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/MainWindow_iPhone.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/MathTutor
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/MathTutor.momd
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/PkgInfo
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/TN_09-10_S_22A.jpg
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/black.png
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/divided.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/iPadPlayController.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/iPadStartScreenController.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/iPhonePlayController.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/iPhoneStartScreenController.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/minus.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/no0.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/no1.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/no2.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/no3.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/no4.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/no5.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/plus.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/times.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/welcome.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/what.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/yes0.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/yes1.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/yes2.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/yes3.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/yes4.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/yes5.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Distribution-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_Shared.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Distribution-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPad.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Distribution-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPhone.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Distribution-iphonesimulator/MathTutor.build/Objects-normal/i386/MathTutor.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Distribution-iphonesimulator/MathTutor.build/Objects-normal/i386/PlayController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Distribution-iphonesimulator/MathTutor.build/Objects-normal/i386/SoundManager.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Distribution-iphonesimulator/MathTutor.build/Objects-normal/i386/StartScreenController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/build/MathTutor.build/Distribution-iphonesimulator/MathTutor.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.h
+c000000004D6BFD0900000000000000FA
+t1298922761
+s250
+i<UIKit/UIKit.h>
+i"AppDelegate_Shared.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m
+c000000004D6BFE480000000000000719
+t1298923080
+s1817
+i"AppDelegate_iPad.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/iPad/MainWindow_iPad.xib
+c000000004D7D4D650000000000005CE7
+t1300057445
+s23783
+
+N/Users/alpascual/Pet Projects/MathTutor/iPadPlayController.xib
+c000000004D7D4B2F000000000000D62E
+t1300056879
+s54830
+
+N/Users/alpascual/Pet Projects/MathTutor/iPadStartScreenController.xib
+c000000004D7D57EA000000000000793F
+t1300060138
+s31039
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.h
+c000000004D6BFD0900000000000000FE
+t1298922761
+s254
+i<UIKit/UIKit.h>
+i"AppDelegate_Shared.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m
+c000000004D6BFD090000000000000AC2
+t1298922761
+s2754
+i"AppDelegate_iPhone.h"
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/MainWindow_iPhone.xib
+c000000004D6C01490000000000005E2E
+t1298923849
+s24110
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhonePlayController.xib
+c000000004D7D49A4000000000000D134
+t1300056484
+s53556
+
+N/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.xib
+c000000004D7D589000000000000079C7
+t1300060304
+s31175
+
+N/var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-dvlwkhqisqbikfdpypyyilxbnemf/MathTutor_Prefix.pch.gch
+t2
+s0
+
+NMathTutor-Info.plist
+c000000004D7D771900000000000005EB
+t1300068121
+s1515
+
+CCompileC build/MathTutor.build/Distribution-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_Shared.o "/Users/alpascual/Pet Projects/MathTutor/Shared/AppDelegate_Shared.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MathTutor.build/Distribution-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPad.o "/Users/alpascual/Pet Projects/MathTutor/iPad/AppDelegate_iPad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MathTutor.build/Distribution-iphonesimulator/MathTutor.build/Objects-normal/i386/AppDelegate_iPhone.o "/Users/alpascual/Pet Projects/MathTutor/iPhone/AppDelegate_iPhone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MathTutor.build/Distribution-iphonesimulator/MathTutor.build/Objects-normal/i386/PlayController.o "/Users/alpascual/Pet Projects/MathTutor/PlayController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MathTutor.build/Distribution-iphonesimulator/MathTutor.build/Objects-normal/i386/SoundManager.o "/Users/alpascual/Pet Projects/MathTutor/Shared/SoundManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MathTutor.build/Distribution-iphonesimulator/MathTutor.build/Objects-normal/i386/StartScreenController.o "/Users/alpascual/Pet Projects/MathTutor/StartScreenController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MathTutor.build/Distribution-iphonesimulator/MathTutor.build/Objects-normal/i386/main.o "/Users/alpascual/Pet Projects/MathTutor/Shared/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPad/MainWindow_iPad.xib"
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPadPlayController.xib"
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPadStartScreenController.xib"
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPhone/MainWindow_iPhone.xib"
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhonePlayController.xib"
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/MathTutor/iPhone/iPhoneStartScreenController.xib"
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/1.wav Resources/1.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/10.wav Resources/10.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/11.wav Resources/11.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/12.wav Resources/12.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/13.wav Resources/13.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/14.wav Resources/14.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/15.wav Resources/15.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/16.wav Resources/16.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/17.wav Resources/17.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/18.wav Resources/18.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/19.wav Resources/19.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/2.wav Resources/2.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/20.wav Resources/20.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/21.wav Resources/21.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/22.wav Resources/22.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/23.wav Resources/23.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/24.wav Resources/24.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/25.wav Resources/25.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/26.wav Resources/26.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/27.wav Resources/27.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/28.wav Resources/28.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/29.wav Resources/29.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/3.wav Resources/3.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/30.wav Resources/30.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/4.wav Resources/4.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/5.wav Resources/5.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/6.wav Resources/6.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/7.wav Resources/7.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/8.wav Resources/8.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/9.wav Resources/9.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/Default.png Resources/Default.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/Icon-72.png Resources/Icon-72.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/Icon.png Resources/Icon.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/Icon@2x.png Resources/Icon@2x.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/TN_09-10_S_22A.jpg Resources/TN_09-10_S_22A.jpg
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/black.png Resources/black.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/divided.wav Resources/divided.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/minus.wav Resources/minus.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/no0.wav Resources/no0.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/no1.wav Resources/no1.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/no2.wav Resources/no2.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/no3.wav Resources/no3.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/no4.wav Resources/no4.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/no5.wav Resources/no5.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/plus.wav Resources/plus.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/times.wav Resources/times.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/welcome.wav Resources/welcome.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/what.wav Resources/what.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/yes0.wav Resources/yes0.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/yes1.wav Resources/yes1.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/yes2.wav Resources/yes2.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/yes3.wav Resources/yes3.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/yes4.wav Resources/yes4.wav
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathTutor.app/yes5.wav Resources/yes5.wav
+r0
+
+CDataModelVersionCompile "/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/MathTutor.momd" "/Users/alpascual/Pet Projects/MathTutor/Shared/MathTutor.xcdatamodeld"
+r0
+
+CGenerateDSYMFile "/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app.dSYM" "/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/MathTutor"
+r0
+
+CLd "/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/MathTutor" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app/Info.plist" MathTutor-Info.plist
+r0
+
+CProcessPCH /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathTutor_Prefix-dvlwkhqisqbikfdpypyyilxbnemf/MathTutor_Prefix.pch.gch MathTutor_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/alpascual/Pet Projects/MathTutor/build/Distribution-iphonesimulator/MathTutor.app"
+r0
+
