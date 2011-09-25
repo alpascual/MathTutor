@@ -37,6 +37,11 @@
 	int score;
 	
 	SoundManager *sounds;
+    int failed;
+    
+    UIImageView *sadOne;
+    UIImageView *sadTwo;
+    UIImageView *sadThree;
 }
 
 @property (nonatomic,retain) NSString *playType;
@@ -52,10 +57,14 @@
 @property (nonatomic,retain) IBOutlet UIButton *answerSecondButton;
 @property (nonatomic,retain) IBOutlet UIButton *answerThirdButton;
 @property (nonatomic,retain) IBOutlet UIButton *nextButton;
+@property (nonatomic,retain) IBOutlet UIImageView *sadOne;
+@property (nonatomic,retain) IBOutlet UIImageView *sadTwo;
+@property (nonatomic,retain) IBOutlet UIImageView *sadThree;
 
 @property (nonatomic,retain) IBOutlet UIBarButtonItem *doneButton;
 
 @property (nonatomic,retain) SoundManager *sounds;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil playType:(NSString *)mytype;
 
@@ -72,5 +81,8 @@
 - (void) answered;
 
 - (int) makeSureNotDuplicate:(int) iResult;
+- (void) checkSadFaces;
+
+
 
 @end

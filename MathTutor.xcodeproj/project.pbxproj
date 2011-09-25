@@ -18,7 +18,15 @@
 		28AD733F0D9D9553002E5188 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow_iPad.xib */; };
 		28EEBFDD1118E19E00187D67 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EEBFDC1118E19E00187D67 /* CoreData.framework */; };
 		28EEC04B1118E28000187D67 /* AppDelegate_Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EEC04A1118E28000187D67 /* AppDelegate_Shared.m */; };
+		76105DC213DFC7CE002452E0 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 76105DC113DFC7CE002452E0 /* star.png */; };
+		76105DC413DFC85B002452E0 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 76105DC313DFC85B002452E0 /* sad.png */; };
 		761A3805132F16050035BC9F /* none.wav in Resources */ = {isa = PBXBuildFile; fileRef = 761A3804132F16050035BC9F /* none.wav */; };
+		7637557F142BCDD500CA49C4 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7637557D142BCDD500CA49C4 /* PlayerViewController.m */; };
+		76375580142BCDD500CA49C4 /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7637557E142BCDD500CA49C4 /* PlayerViewController.xib */; };
+		76375585142BCDF200CA49C4 /* iPadPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76375583142BCDF200CA49C4 /* iPadPlayerViewController.xib */; };
+		76375587142BD1A600CA49C4 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76375586142BD1A600CA49C4 /* GameKit.framework */; };
+		76375598142C0FDC00CA49C4 /* ScoreTableList.m in Sources */ = {isa = PBXBuildFile; fileRef = 76375596142C0FDC00CA49C4 /* ScoreTableList.m */; };
+		76375599142C0FDC00CA49C4 /* ScoreTableList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76375597142C0FDC00CA49C4 /* ScoreTableList.xib */; };
 		76699D2F132DADD700317ACC /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 76699D2C132DADD700317ACC /* Icon-72.png */; };
 		76699D30132DADD700317ACC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 76699D2D132DADD700317ACC /* Icon.png */; };
 		76699D31132DADD700317ACC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76699D2E132DADD700317ACC /* Icon@2x.png */; };
@@ -101,7 +109,17 @@
 		28EEC04A1118E28000187D67 /* AppDelegate_Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate_Shared.m; path = Shared/AppDelegate_Shared.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MathTutor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathTutor_Prefix.pch; sourceTree = "<group>"; };
+		76105DC113DFC7CE002452E0 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		76105DC313DFC85B002452E0 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
 		761A3804132F16050035BC9F /* none.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = none.wav; sourceTree = "<group>"; };
+		7637557C142BCDD500CA49C4 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		7637557D142BCDD500CA49C4 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		7637557E142BCDD500CA49C4 /* PlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlayerViewController.xib; path = ../PlayerViewController.xib; sourceTree = "<group>"; };
+		76375583142BCDF200CA49C4 /* iPadPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadPlayerViewController.xib; sourceTree = "<group>"; };
+		76375586142BD1A600CA49C4 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		76375595142C0FDC00CA49C4 /* ScoreTableList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreTableList.h; sourceTree = "<group>"; };
+		76375596142C0FDC00CA49C4 /* ScoreTableList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreTableList.m; sourceTree = "<group>"; };
+		76375597142C0FDC00CA49C4 /* ScoreTableList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoreTableList.xib; sourceTree = "<group>"; };
 		76699D2C132DADD700317ACC /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		76699D2D132DADD700317ACC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		76699D2E132DADD700317ACC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
@@ -178,6 +196,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76375587142BD1A600CA49C4 /* GameKit.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -206,6 +225,7 @@
 				2860E389111B897F00E27156 /* MainWindow_iPhone.xib */,
 				76A4FB3F131C34D300A052C6 /* iPhoneStartScreenController.xib */,
 				76A4FBB2131C3C7600A052C6 /* iPhonePlayController.xib */,
+				7637557E142BCDD500CA49C4 /* PlayerViewController.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -224,6 +244,11 @@
 				28EEC0491118E28000187D67 /* AppDelegate_Shared.h */,
 				28EEC04A1118E28000187D67 /* AppDelegate_Shared.m */,
 				8D1107310486CEB800E47090 /* MathTutor-Info.plist */,
+				7637557C142BCDD500CA49C4 /* PlayerViewController.h */,
+				7637557D142BCDD500CA49C4 /* PlayerViewController.m */,
+				76375595142C0FDC00CA49C4 /* ScoreTableList.h */,
+				76375596142C0FDC00CA49C4 /* ScoreTableList.m */,
+				76375597142C0FDC00CA49C4 /* ScoreTableList.xib */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -231,6 +256,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				76375586142BD1A600CA49C4 /* GameKit.framework */,
 				76A4FB5E131C377600A052C6 /* Resources */,
 				2860E386111B897F00E27156 /* iPhone */,
 				29B97317FDCFA39411CA2CEA /* iPad */,
@@ -262,6 +288,7 @@
 				28AD733E0D9D9553002E5188 /* MainWindow_iPad.xib */,
 				76A4FB3A131C34AE00A052C6 /* iPadStartScreenController.xib */,
 				76A4FBAD131C3C5200A052C6 /* iPadPlayController.xib */,
+				76375583142BCDF200CA49C4 /* iPadPlayerViewController.xib */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
@@ -280,6 +307,8 @@
 		76A4FB5E131C377600A052C6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				76105DC313DFC85B002452E0 /* sad.png */,
+				76105DC113DFC7CE002452E0 /* star.png */,
 				761A3804132F16050035BC9F /* none.wav */,
 				76699D2C132DADD700317ACC /* Icon-72.png */,
 				76699D2D132DADD700317ACC /* Icon.png */,
@@ -449,6 +478,11 @@
 				76699D30132DADD700317ACC /* Icon.png in Resources */,
 				76699D31132DADD700317ACC /* Icon@2x.png in Resources */,
 				761A3805132F16050035BC9F /* none.wav in Resources */,
+				76105DC213DFC7CE002452E0 /* star.png in Resources */,
+				76105DC413DFC85B002452E0 /* sad.png in Resources */,
+				76375580142BCDD500CA49C4 /* PlayerViewController.xib in Resources */,
+				76375585142BCDF200CA49C4 /* iPadPlayerViewController.xib in Resources */,
+				76375599142C0FDC00CA49C4 /* ScoreTableList.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +501,8 @@
 				76A4FB3B131C34AE00A052C6 /* StartScreenController.m in Sources */,
 				76A4FBAE131C3C5200A052C6 /* PlayController.m in Sources */,
 				76D67DD0132D7DEB00786FB0 /* SoundManager.m in Sources */,
+				7637557F142BCDD500CA49C4 /* PlayerViewController.m in Sources */,
+				76375598142C0FDC00CA49C4 /* ScoreTableList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +522,7 @@
 				GCC_PREFIX_HEADER = MathTutor_Prefix.pch;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "MathTutor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = MathTutor;
 				PROVISIONING_PROFILE = "";
 			};
@@ -503,6 +540,7 @@
 				GCC_PREFIX_HEADER = MathTutor_Prefix.pch;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "MathTutor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = MathTutor;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "03860BD2-20F7-4138-9204-95D167F7B01E";
@@ -541,6 +579,7 @@
 				GCC_PREFIX_HEADER = MathTutor_Prefix.pch;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "MathTutor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = MathTutor;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "03860BD2-20F7-4138-9204-95D167F7B01E";

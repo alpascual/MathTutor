@@ -16,6 +16,7 @@
 @synthesize doneButton;
 @synthesize answerFirstButton, answerSecondButton, answerThirdButton;
 @synthesize nextButton, sounds;
+@synthesize sadOne, sadTwo, sadThree;
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil playType:(NSString *)mytype{
@@ -40,6 +41,20 @@
     	
 	self.sounds = [[SoundManager alloc] init];
 	self.sounds.soundDelegate = self;
+    
+    failed = 0;
+    
+    self.sadThree.hidden = YES;
+    self.sadTwo.hidden = YES;
+    self.sadThree.hidden = YES;
+    
+    NSUserDefaults *myPrefs = [NSUserDefaults standardUserDefaults];
+    if ( [myPrefs stringForKey:@"score"] != nil )
+    {
+        NSString *stringScore = [myPrefs stringForKey:@"score"];
+        score = [stringScore intValue];
+    }
+    
 }
 
 
@@ -78,15 +93,19 @@
 
 -(IBAction) buttonA
 {
+    
 	if ( resultPos == 0 )
 	{
 		score = score + 1;
 		[self.sounds LoadRandomSound:@"yes":@"wav"];
+        
 	}
 	else
 	{
 		score = score - 1;
 		[self.sounds LoadRandomSound:@"no":@"wav"];
+        failed += 1;
+        [self checkSadFaces];
 	}
 	
 	[self answered];
@@ -102,6 +121,8 @@
 	{
 		score = score - 1;
 		[self.sounds LoadRandomSound:@"no":@"wav"];
+        failed += 1;
+        [self checkSadFaces];
 	}
 	
 	[self answered];
@@ -117,6 +138,8 @@
 	{
 		score = score - 1;
 		[self.sounds LoadRandomSound:@"no":@"wav"];
+        failed += 1;
+        [self checkSadFaces];
 	}
 	
 	[self answered];
@@ -126,12 +149,34 @@
 {
 	self.nextButton.hidden = NO;
 	self.theScore.text = [[NSString alloc] initWithFormat:@"Score: %d", score ];
+    
+    [self.theScore release];
 }
 
 -(IBAction) nextPressed
 {
 	self.nextButton.hidden = YES;
-	
+    
+    NSUserDefaults *myPrefs = [NSUserDefaults standardUserDefaults];
+    NSString * stringScore = [[NSString alloc] initWithFormat:@"%d", score];
+    [myPrefs setValue:stringScore forKey:@"score"];     
+    
+    if ( [myPrefs valueForKey:@"id"] != nil )
+    {
+        // Send request to store score in server.
+        NSString *myRequestString = [[NSString alloc] initWithFormat:@"http://score.alsandbox.us/Home/Score?ID=%@&Score%@app=math", [myPrefs valueForKey:@"id"], stringScore];
+        
+        NSURL *urlToOpen = [[NSURL alloc] initWithString:myRequestString];
+        
+        NSURLRequest *aReq = [NSURLRequest requestWithURL:urlToOpen];
+        
+        NSData *response = [NSURLConnection sendSynchronousRequest:aReq returningResponse:nil error:nil];
+        NSString *get = [[NSString alloc] initWithData:response encoding:NSUTF8StringEncoding];
+        
+        NSLog(@"request replied %@", get );
+    }
+    
+	[stringScore release];
 	[self loopStart];
 }
 
@@ -167,10 +212,10 @@
 	
 	self.nextButton.hidden = YES;
 	
-	int ran1 = 0;
+	int ran1 = 1;
 	ran1 = arc4random() % 30;
 	
-	int ran2 = 0;
+	int ran2 = 1;
 	ran2 = arc4random() % 30;
 	
 	resultPos = arc4random() % 2;
@@ -244,6 +289,40 @@
 	self.answerSecondButton.hidden = NO;
 	self.answerThirdButton.hidden = NO;
 	
+    NSUserDefaults *myPrefs = [NSUserDefaults standardUserDefaults];
+    NSString * stringScore = [[NSString alloc] initWithFormat:@"%d", score];
+    [myPrefs setValue:stringScore forKey:@"score"];
+    
+    [stringScore release];
 }
+
+- (void) checkSadFaces
+{
+    if ( failed == 1 )
+        self.sadOne.hidden = NO;
+    else if ( failed == 2 )
+        self.sadTwo.hidden = NO;
+    else if ( failed == 3 )
+        self.sadThree.hidden = NO;
+    else
+    {
+        // Game Over.
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Over" message:@"Would you like to start again"
+                                                       delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+        [alert show];
+        [alert release];
+        
+        score = 0;        
+        failed = 0;
+        
+        self.sadThree.hidden = YES;
+        self.sadTwo.hidden = YES;
+        self.sadThree.hidden = YES;
+        
+        [self answered];
+    }
+}
+
+
 
 @end

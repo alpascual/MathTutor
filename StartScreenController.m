@@ -11,7 +11,7 @@
 
 @implementation StartScreenController
 
-@synthesize myplay, sounds;
+@synthesize myplay, sounds, play, scoreView;
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -96,6 +96,40 @@
 		
 	[self.myplay start];
 
+}
+
+-(IBAction)setupPlayerPressed:(id)sender
+{
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+    {
+        self.play = [[[PlayerViewController alloc] initWithNibName:@"iPadPlayerViewController" bundle:nil] autorelease];
+        
+        self.play.modalPresentationStyle = UIModalPresentationFormSheet;
+		self.play.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+		[self presentModalViewController:self.play animated:YES];
+    }
+    else
+    {
+        self.play = [[[PlayerViewController alloc] initWithNibName:@"PlayerViewController" bundle:nil] autorelease]; 
+        [self.navigationController pushViewController:self.play animated:YES]; 
+    }
+}
+
+-(IBAction)scoreBoard:(id)sender
+{
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+    {
+        self.scoreView = [[[ScoreTableList alloc] initWithNibName:@"ScoreTableList" bundle:nil] autorelease];
+        
+        self.scoreView.modalPresentationStyle = UIModalPresentationFormSheet;
+		self.scoreView.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+		[self presentModalViewController:self.scoreView animated:YES];
+    }
+    else
+    {
+        self.scoreView = [[[ScoreTableList alloc] initWithNibName:@"ScoreTableList" bundle:nil] autorelease]; 
+        [self.navigationController pushViewController:self.scoreView animated:YES]; 
+    }
 }
 
 @end
