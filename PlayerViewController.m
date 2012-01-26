@@ -56,7 +56,7 @@
             NSString *myScore = [myPrefs valueForKey:kScore];
             myGuid = [myPrefs valueForKey:kID];
             
-            NSString *myRequestString = [[NSString alloc] initWithFormat:@"http://score.alsandbox.us/Home/Score?ID=%@&Score=%@&app=math", myGuid, myScore];
+            NSString *myRequestString = [[[NSString alloc] initWithFormat:@"http://score.alsandbox.us/Home/Score?ID=%@&Score=%@&app=math", myGuid, myScore] autorelease];
             
             NSURL *urlToOpen = [[NSURL alloc] initWithString:myRequestString];
             

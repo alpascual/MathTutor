@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate_Shared.h"
 
+#import "RootViewController.h"
+
 @interface AppDelegate_iPhone : AppDelegate_Shared {
+    
+    
 }
 
 

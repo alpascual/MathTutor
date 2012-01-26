@@ -11,11 +11,16 @@
 
 #import "StartScreenController.h"
 
-@interface AppDelegate_Shared : NSObject <UIApplicationDelegate> {
+
+@class RootViewController;
+
+
+@interface AppDelegate_Shared : UIResponder <UIApplicationDelegate> {
     
     UIWindow *window;
+    
 	StartScreenController *startController;
-	UINavigationController *navigationController;
+	
     
 @private
     NSManagedObjectContext *managedObjectContext_;
@@ -24,18 +29,9 @@
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (strong, nonatomic) RootViewController *viewController;
+@property (strong, nonatomic) UINavigationController *navigationController;
 
-@property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
-@property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
-@property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-
-@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
-@property (nonatomic, retain) StartScreenController *startController;
-
-- (NSURL *)applicationDocumentsDirectory;
-- (void)saveContext;
-
-- (IBAction) startCalled;
 
 @end
 

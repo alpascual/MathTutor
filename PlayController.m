@@ -290,10 +290,10 @@
 	self.answerThirdButton.hidden = NO;
 	
     NSUserDefaults *myPrefs = [NSUserDefaults standardUserDefaults];
-    NSString * stringScore = [[NSString alloc] initWithFormat:@"%d", score];
+    NSString * stringScore = [[[NSString alloc] initWithFormat:@"%d", score] autorelease];
     [myPrefs setValue:stringScore forKey:@"score"];
     
-    [stringScore release];
+    //[stringScore release];
 }
 
 - (void) checkSadFaces
