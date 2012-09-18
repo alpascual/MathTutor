@@ -90,6 +90,7 @@
 		76D67E70132D886300786FB0 /* yes4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76D67E40132D886300786FB0 /* yes4.wav */; };
 		76D67E71132D886300786FB0 /* yes5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76D67E41132D886300786FB0 /* yes5.wav */; };
 		76D67EB8132D8F9E00786FB0 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D67EB7132D8F9E00786FB0 /* iAd.framework */; };
+		881C882E1608FC870038D3E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 881C882D1608FC870038D3E3 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -187,6 +188,7 @@
 		76D67E41132D886300786FB0 /* yes5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yes5.wav; sourceTree = "<group>"; };
 		76D67EB7132D8F9E00786FB0 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		76DA2AFD132DB04000125744 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		881C882D1608FC870038D3E3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MathTutor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MathTutor-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -256,6 +258,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				881C882D1608FC870038D3E3 /* Default-568h@2x.png */,
 				76375586142BD1A600CA49C4 /* GameKit.framework */,
 				76A4FB5E131C377600A052C6 /* Resources */,
 				2860E386111B897F00E27156 /* iPhone */,
@@ -392,7 +395,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MathTutor" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -485,6 +488,7 @@
 				76375585142BCDF200CA49C4 /* iPadPlayerViewController.xib in Resources */,
 				76375599142C0FDC00CA49C4 /* ScoreTableList.xib in Resources */,
 				764505751443FDDB0070C8D0 /* Storyboard_iPhone.storyboard in Resources */,
+				881C882E1608FC870038D3E3 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,7 +532,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "MathTutor-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = MathTutor;
 				PROVISIONING_PROFILE = "";
 			};
@@ -551,7 +555,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "MathTutor-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = MathTutor;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -594,7 +598,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "MathTutor-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = MathTutor;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
