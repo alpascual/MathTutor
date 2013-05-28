@@ -66,7 +66,7 @@
 	// iAds requires a View instead of a Window
 	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 	{
-		self.startController = [[[StartScreenController alloc] initWithNibName:@"iPadStartScreenController" bundle:nil] autorelease];
+		self.startController = [[StartScreenController alloc] initWithNibName:@"iPadStartScreenController" bundle:nil];
 		
 		self.startController.modalPresentationStyle = UIModalPresentationFullScreen;
 		self.startController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
@@ -77,7 +77,7 @@
 	}
 	else
 	{
-		self.startController = [[[StartScreenController alloc] initWithNibName:@"iPhoneStartScreenController" bundle:nil] autorelease];
+		self.startController = [[StartScreenController alloc] initWithNibName:@"iPhoneStartScreenController" bundle:nil];
 		
         if ( self.navigationController == nil )
         {

@@ -15,9 +15,9 @@
     UITableView *tableView;
 }
 
-@property (nonatomic, retain) NSMutableArray *Userlist;
-@property (nonatomic, retain) IBOutlet UIButton *buttonClose;
-@property (nonatomic, retain) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) NSMutableArray *Userlist;
+@property (nonatomic, strong) IBOutlet UIButton *buttonClose;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
 - (IBAction)closePressed:(id)sender;
 

@@ -44,26 +44,26 @@
     UIImageView *sadThree;
 }
 
-@property (nonatomic,retain) NSString *playType;
-@property (nonatomic,retain) IBOutlet UILabel *firstNumber;
-@property (nonatomic,retain) IBOutlet UILabel *secondNumber;
-@property (nonatomic,retain) IBOutlet UILabel *theSign;
-@property (nonatomic,retain) IBOutlet UILabel *theResult;
-@property (nonatomic,retain) IBOutlet UILabel *firstAnswer;
-@property (nonatomic,retain) IBOutlet UILabel *secondAnswer;
-@property (nonatomic,retain) IBOutlet UILabel *thirdAnswer;
-@property (nonatomic,retain) IBOutlet UILabel *theScore;
-@property (nonatomic,retain) IBOutlet UIButton *answerFirstButton;
-@property (nonatomic,retain) IBOutlet UIButton *answerSecondButton;
-@property (nonatomic,retain) IBOutlet UIButton *answerThirdButton;
-@property (nonatomic,retain) IBOutlet UIButton *nextButton;
-@property (nonatomic,retain) IBOutlet UIImageView *sadOne;
-@property (nonatomic,retain) IBOutlet UIImageView *sadTwo;
-@property (nonatomic,retain) IBOutlet UIImageView *sadThree;
+@property (nonatomic,strong) NSString *playType;
+@property (nonatomic,strong) IBOutlet UILabel *firstNumber;
+@property (nonatomic,strong) IBOutlet UILabel *secondNumber;
+@property (nonatomic,strong) IBOutlet UILabel *theSign;
+@property (nonatomic,strong) IBOutlet UILabel *theResult;
+@property (nonatomic,strong) IBOutlet UILabel *firstAnswer;
+@property (nonatomic,strong) IBOutlet UILabel *secondAnswer;
+@property (nonatomic,strong) IBOutlet UILabel *thirdAnswer;
+@property (nonatomic,strong) IBOutlet UILabel *theScore;
+@property (nonatomic,strong) IBOutlet UIButton *answerFirstButton;
+@property (nonatomic,strong) IBOutlet UIButton *answerSecondButton;
+@property (nonatomic,strong) IBOutlet UIButton *answerThirdButton;
+@property (nonatomic,strong) IBOutlet UIButton *nextButton;
+@property (nonatomic,strong) IBOutlet UIImageView *sadOne;
+@property (nonatomic,strong) IBOutlet UIImageView *sadTwo;
+@property (nonatomic,strong) IBOutlet UIImageView *sadThree;
 
-@property (nonatomic,retain) IBOutlet UIBarButtonItem *doneButton;
+@property (nonatomic,strong) IBOutlet UIBarButtonItem *doneButton;
 
-@property (nonatomic,retain) SoundManager *sounds;
+@property (nonatomic,strong) SoundManager *sounds;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil playType:(NSString *)mytype;

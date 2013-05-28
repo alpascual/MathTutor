@@ -21,10 +21,10 @@
 	id <SoundDelegate> soundDelegate;
 }
 
-@property(nonatomic, retain) NSMutableArray *sndQueue;
-@property(nonatomic, retain) UIImageView *overlay;
+@property(nonatomic, strong) NSMutableArray *sndQueue;
+@property(nonatomic, strong) UIImageView *overlay;
 
-@property (retain, nonatomic) id <SoundDelegate> soundDelegate;
+@property (strong, nonatomic) id <SoundDelegate> soundDelegate;
 
 
 - (void) LoadSound:(NSString*)pathSound:(NSString*)ofType;

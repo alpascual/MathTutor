@@ -49,14 +49,14 @@
             self.textSchool.text = [myPrefs valueForKey:kSchool];
             
             if ( [myPrefs valueForKey:kScore] != nil )
-                self.labelScore.text = [[[NSString alloc] initWithFormat:@"Score %@", [myPrefs valueForKey:kScore]]autorelease];
+                self.labelScore.text = [[NSString alloc] initWithFormat:@"Score %@", [myPrefs valueForKey:kScore]];
             else
                 self.labelScore.text = @"Score 0";
             
             NSString *myScore = [myPrefs valueForKey:kScore];
             myGuid = [myPrefs valueForKey:kID];
             
-            NSString *myRequestString = [[[NSString alloc] initWithFormat:@"http://score.alsandbox.us/Home/Score?ID=%@&Score=%@&app=math", myGuid, myScore] autorelease];
+            NSString *myRequestString = [[NSString alloc] initWithFormat:@"http://score.alsandbox.us/Home/Score?ID=%@&Score=%@&app=math", myGuid, myScore];
             
             NSURL *urlToOpen = [[NSURL alloc] initWithString:myRequestString];
             
@@ -129,12 +129,12 @@
         
         //myRequestString = [myRequestString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
         NSString * escapedUrlString =
-        (NSString *)CFURLCreateStringByAddingPercentEscapes(
+        (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(
                                                             NULL,
                                                             (CFStringRef)myRequestString,
                                                             NULL,
                                                             (CFStringRef)@"!*'();:@&=+$,/?%#[]",
-                                                            kCFStringEncodingUTF8 );
+                                                            kCFStringEncodingUTF8 ));
               
         NSLog(@"%@", escapedUrlString);
         
@@ -147,8 +147,6 @@
         
         NSLog(@"request replied %@", get );
         
-        [myRequestString release];
-        [escapedUrlString release];
         
     }
     
@@ -165,9 +163,9 @@
 - (NSString*) stringWithUUID {
     CFUUIDRef	uuidObj = CFUUIDCreate(nil);//create a new UUID
     //get the string representation of the UUID
-    NSString	*uuidString = (NSString*)CFUUIDCreateString(nil, uuidObj);
+    NSString	*uuidString = (NSString*)CFBridgingRelease(CFUUIDCreateString(nil, uuidObj));
     CFRelease(uuidObj);
-    return [uuidString autorelease];
+    return uuidString;
 }
 
 - (IBAction)closedPress:(id)sender

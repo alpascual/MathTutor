@@ -40,7 +40,7 @@
     
     if (UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPad)
     {
-        UIBarButtonItem *button = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(closePressed:)] autorelease];
+        UIBarButtonItem *button = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(closePressed:)];
         
         self.navigationItem.title = @"Some title";
         self.navigationItem.leftBarButtonItem = button;
@@ -66,7 +66,7 @@
     //Parse get to a list of mutable array
     NSRange firstRange = [get rangeOfString:@","];
     
-    self.Userlist = [[[NSMutableArray alloc] init] autorelease];
+    self.Userlist = [[NSMutableArray alloc] init];
     
     if ( firstRange.length > 0 )
     {
@@ -78,8 +78,6 @@
         }
     }
     
-    [get release];
-    [myRequestString release];
     
     self.tableView.delegate = self;
     
@@ -150,7 +148,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
     NSUInteger row = [indexPath row]; 

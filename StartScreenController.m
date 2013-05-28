@@ -58,9 +58,8 @@
 
 
 - (void)dealloc {
-    [super dealloc];
 	
-	[self.sounds release];
+	self.sounds;
 }
 
 
@@ -82,7 +81,7 @@
 	// iAds requires a View instead of a Window
 	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 	{
-		self.myplay = [[[PlayController alloc] initWithNibName:@"iPadPlayController" bundle:nil playType:myType] autorelease];
+		self.myplay = [[PlayController alloc] initWithNibName:@"iPadPlayController" bundle:nil playType:myType];
 		self.myplay.modalPresentationStyle = UIModalPresentationFullScreen;
 		self.myplay.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
 		[self presentModalViewController:self.myplay animated:YES];
@@ -90,7 +89,7 @@
 	}
 	else {
 		
-		self.myplay = [[[PlayController alloc] initWithNibName:@"iPhonePlayController" bundle:nil playType:myType] autorelease];
+		self.myplay = [[PlayController alloc] initWithNibName:@"iPhonePlayController" bundle:nil playType:myType];
 		[self.navigationController pushViewController:self.myplay animated:YES]; 
 	} 
 		
@@ -102,7 +101,7 @@
 {
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
     {
-        self.play = [[[PlayerViewController alloc] initWithNibName:@"iPadPlayerViewController" bundle:nil] autorelease];
+        self.play = [[PlayerViewController alloc] initWithNibName:@"iPadPlayerViewController" bundle:nil];
         
         self.play.modalPresentationStyle = UIModalPresentationFormSheet;
 		self.play.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
@@ -110,7 +109,7 @@
     }
     else
     {
-        self.play = [[[PlayerViewController alloc] initWithNibName:@"PlayerViewController" bundle:nil] autorelease]; 
+        self.play = [[PlayerViewController alloc] initWithNibName:@"PlayerViewController" bundle:nil]; 
         [self.navigationController pushViewController:self.play animated:YES]; 
     }
 }
@@ -119,7 +118,7 @@
 {
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
     {
-        self.scoreView = [[[ScoreTableList alloc] initWithNibName:@"ScoreTableList" bundle:nil] autorelease];
+        self.scoreView = [[ScoreTableList alloc] initWithNibName:@"ScoreTableList" bundle:nil];
         
         self.scoreView.modalPresentationStyle = UIModalPresentationFormSheet;
 		self.scoreView.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
@@ -127,7 +126,7 @@
     }
     else
     {
-        self.scoreView = [[[ScoreTableList alloc] initWithNibName:@"ScoreTableList" bundle:nil] autorelease]; 
+        self.scoreView = [[ScoreTableList alloc] initWithNibName:@"ScoreTableList" bundle:nil]; 
         [self.navigationController pushViewController:self.scoreView animated:YES]; 
     }
 }

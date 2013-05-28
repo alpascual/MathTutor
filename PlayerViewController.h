@@ -22,11 +22,11 @@
     NSString *myGuid;
 }
 
-@property (nonatomic, retain) IBOutlet UITextField *textUsername;
-@property (nonatomic, retain) IBOutlet UITextField *textSchool;
+@property (nonatomic, strong) IBOutlet UITextField *textUsername;
+@property (nonatomic, strong) IBOutlet UITextField *textSchool;
 
-@property (nonatomic, retain) IBOutlet UILabel *labelScore;
-@property (nonatomic, retain) NSString *myGuid;
+@property (nonatomic, strong) IBOutlet UILabel *labelScore;
+@property (nonatomic, strong) NSString *myGuid;
 
 -(IBAction)savePressed:(id)sender;
 - (NSString*) stringWithUUID;

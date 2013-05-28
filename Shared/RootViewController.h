@@ -15,7 +15,7 @@
     
 }
 
-@property (nonatomic, retain) StartScreenController *startController;
+@property (nonatomic, strong) StartScreenController *startController;
 
 
 - (IBAction) startCalled;

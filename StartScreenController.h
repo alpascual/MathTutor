@@ -26,10 +26,10 @@
 	
 }
 
-@property (nonatomic, retain) PlayController *myplay;
-@property (nonatomic,retain) SoundManager *sounds;
-@property (nonatomic, retain) PlayerViewController *play;
-@property (nonatomic, retain) ScoreTableList *scoreView;
+@property (nonatomic, strong) PlayController *myplay;
+@property (nonatomic,strong) SoundManager *sounds;
+@property (nonatomic, strong) PlayerViewController *play;
+@property (nonatomic, strong) ScoreTableList *scoreView;
 
 -(IBAction) divisionButton;
 -(IBAction) multiplicationButton;
